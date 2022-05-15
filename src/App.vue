@@ -1,26 +1,44 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="app">
+    <Header></Header>
+    <SectionFirst></SectionFirst>
+    <SectionSecond></SectionSecond>
+    <SectionThird></SectionThird>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from '@/components/sections/Header.vue'
+import SectionFirst from '@/components/sections/SectionFirst.vue'
+import SectionSecond from '@/components/sections/SectionSecond.vue'
+import SectionThird from '@/components/sections/SectionThird.vue'
+
+import "@/scss/font-aventa/aventa-font.scss"
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Header,
+    SectionFirst,
+    SectionSecond,
+    SectionThird
+    
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+}
+.app{
+  background-image: url("@/assets/GemBox-background.png");
 }
 </style>
