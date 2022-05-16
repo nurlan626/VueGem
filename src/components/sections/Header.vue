@@ -26,7 +26,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .header {
     background-color: black;
     color: white;
@@ -35,7 +35,10 @@ export default {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.4rem 2.1rem 1rem 4.4rem;
+    padding: 1.4rem 4.1rem 1rem 4.4rem;
+     @media (max-width: 600px) {
+      padding: 1.4rem 2.5rem 1rem 2.5rem;
+    }
 }
 .header__logo {
     display: flex;
@@ -56,6 +59,10 @@ export default {
     gap: 3rem;
     font-family: "Aventa";
     font-size: 1.3rem;
+    @media (max-width: 600px) {
+       gap: 1rem;
+       margin-left: 1rem;
+    }
 
 }
 .header__links-icons{
@@ -64,6 +71,7 @@ export default {
 }
 .header__links-icon{
     width: 2.4rem;
+    height: 2.4rem;;
 }
 .header__links-icon-discord{
     width: 2.8rem;

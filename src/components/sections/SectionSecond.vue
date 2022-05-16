@@ -18,11 +18,11 @@
           </div>
         </div>
       </div>
-      <div class="right-video">
+      <!-- <div class="right-video">
         <video class="video" autoplay loop>
               <source src="@/assets/video/metalna_final.mp4" type="video/mp4">
         </video>
-      </div>
+      </div> -->
   </section>
 </template>
 
@@ -33,7 +33,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .SectionSecond{
   margin-top: 25rem;
   display: flex;
@@ -74,6 +74,7 @@ export default {
 .right-video{
   width: 100%;
   max-width: 500px;
+  max-height: 500px;
   position: relative;
   top: -30rem;
   left: 8rem;

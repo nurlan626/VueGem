@@ -2,26 +2,28 @@
   <div class="app">
     <Header></Header>
     <SectionFirst></SectionFirst>
-    <SectionSecond></SectionSecond>
-    <SectionThird></SectionThird>
+    <!-- <SectionSecond></SectionSecond>
+    <SectionThird></SectionThird> -->
   </div>
 </template>
 
 <script>
 import Header from '@/components/sections/Header.vue'
 import SectionFirst from '@/components/sections/SectionFirst.vue'
-import SectionSecond from '@/components/sections/SectionSecond.vue'
-import SectionThird from '@/components/sections/SectionThird.vue'
+// import SectionSecond from '@/components/sections/SectionSecond.vue'
+// import SectionThird from '@/components/sections/SectionThird.vue'
 
 import "@/scss/font-aventa/aventa-font.scss"
+import "@/scss/mixins.scss"
+import "@/scss/variables.scss"
 
 export default {
   name: 'App',
   components: {
     Header,
     SectionFirst,
-    SectionSecond,
-    SectionThird
+    // SectionSecond,
+    // SectionThird
     
   }
 }
@@ -30,6 +32,7 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -40,5 +43,7 @@ html{
 }
 .app{
   background-image: url("@/assets/GemBox-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 </style>

@@ -39,11 +39,12 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .SectionThird{
   margin-top: 43rem;
-  margin-left: 10rem;
+  margin-right: 22rem;
   display: flex;
+  justify-content: center;
   color: white;
   font-display: "Avesta";
 }
@@ -85,7 +86,6 @@ export default {
 
 .right__text {
   margin-left: 1.5rem;
-
 }
 .right__text1{
   font-size: 3.179rem;

@@ -27,8 +27,8 @@
             </div>
           </div>
         </div>
-        <div class="content__video-box">
-          <video class="content__video" autoplay loop>
+        <div class="video-box">
+          <video class="video" autoplay loop>
               <source src="@/assets/video/kawai.mp4" type="video/mp4">
           </video>
         </div>
@@ -45,32 +45,53 @@
 </template>
 
 <script>
+import "@/scss/mixins.scss"
 
 export default {
   name: "section-first",
 };
 </script>
 
-<style>
+<style scoped lang="scss">
 .SectionFirst{
-  padding: 6.5rem 5.2rem 10rem 15rem;
+  padding: 6.5rem auto 10rem auto;
   color: white;
+  @media (max-width: 600px) {
+    padding: 6.5rem 2rem 10rem 2rem;
+  }
+ 
 }
 .title{
-  padding-top: 6rem;
+  padding-top: 12.5rem;
   text-align: center;
   font-size: 6.3rem;
   font-family: "Aventa";
   font-weight: 700;
   line-height: 6.7rem;
+  
+  @media (max-width: 1200px) {
+    padding-top: 6rem;
+  }
+  @media (max-width: 600px) {
+    font-size: 5rem;
+    padding-top: 3rem;
+    line-height: 5rem;
+  }
 }
 .title__title1{
    padding-right: 30rem; 
 }
 .content{
   display: flex;
+  justify-content: center;
   width: 100%;
-  padding-left: 3.8rem;
+  // padding-left: 3.8rem;
+  text-align: left;
+  
+  @media (max-width: 1024px) {
+      flex-direction: column;
+      align-items: center;
+    }
 }
 .content__text-container{
   width: 100%;
@@ -82,6 +103,17 @@ export default {
   font-family: 400;
   line-height: 5.2rem;
   padding-top: 13.2rem;
+  margin: 0 auto;
+  @media (max-width:1024px) {
+    text-align: center;
+    padding-top: 7rem;
+  }
+  @media (max-width: 600px) {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    padding-top: 6rem;
+    
+  }
 }
 .content__text{
   padding-top: 5rem;
@@ -91,6 +123,17 @@ export default {
   line-height: 2.5rem;
   width: 100%;
   max-width: 50rem;
+  @media (max-width: 1440px) {
+
+  }
+  @media (max-width: 1024px) { 
+      margin: 0 auto;
+
+  }
+  @media (max-width: 600px) { 
+    padding-top: 3rem; 
+    font-size: 1.5rem;
+  }
 }
 .content__text-span{
   font-weight: 600;
@@ -100,6 +143,12 @@ export default {
   display: flex;
   gap: 7.7rem;
   padding: 1.5rem 0 2rem 0;
+  @media (max-width: 480px) { 
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 4rem;
+  }
 }
 .content__links-button{
   font-family: 'Aventa';
@@ -131,14 +180,16 @@ export default {
 .content_link-icon{
   width: 4rem;
 }
-.content__video-box{
+.video-box{
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 6.5rem;
+  max-width: 50rem;
 }
-.content__video{
+.video{
   width: 100%;
+
 }
 .membershtip-nft{
   font-family: "Aventa";
