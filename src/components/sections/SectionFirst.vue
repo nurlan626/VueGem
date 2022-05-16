@@ -63,23 +63,29 @@ export default {
 }
 .title{
   padding-top: 12.5rem;
+  margin-left: 10rem;
   text-align: center;
   font-size: 6.3rem;
   font-family: "Aventa";
   font-weight: 700;
   line-height: 6.7rem;
-  
+
   @media (max-width: 1200px) {
     padding-top: 6rem;
+    margin-left: 0rem;
   }
   @media (max-width: 600px) {
     font-size: 5rem;
     padding-top: 3rem;
     line-height: 5rem;
+    
   }
 }
 .title__title1{
    padding-right: 30rem; 
+  @media (max-width: 1024px) {
+    padding-right: 10rem; 
+  }
 }
 .content{
   display: flex;
@@ -91,7 +97,7 @@ export default {
   @media (max-width: 1024px) {
       flex-direction: column;
       align-items: center;
-    }
+  }
 }
 .content__text-container{
   width: 100%;
@@ -124,11 +130,9 @@ export default {
   width: 100%;
   max-width: 50rem;
   @media (max-width: 1440px) {
-
   }
   @media (max-width: 1024px) { 
       margin: 0 auto;
-
   }
   @media (max-width: 600px) { 
     padding-top: 3rem; 
@@ -195,9 +199,20 @@ export default {
   font-family: "Aventa";
   width: 100%;
   max-width: 58.3rem;
-  margin: 25rem auto 0 auto;
+  margin: 31.5rem auto 0 auto;
   position: relative;
-  right: 2.6rem
+  right: 2.6rem;
+  @media (max-width: 1440px) {
+    position: relative;
+    left: 2rem;
+  }
+  @media (max-width: 600px) {
+    margin-top: 20rem;
+    position: static;
+    
+  }
+
+  
 }
 .ready-for{
   color: #7239FA;
@@ -206,6 +221,9 @@ export default {
 .membership-nft__title{
   font-size: 7.4rem;
   font-family: "Bebas Neue";
+  @media (max-width: 600px) {
+    font-size: 6rem;
+  }
 }
 .membership-nft__span{
   color: #48f08c;
@@ -213,5 +231,8 @@ export default {
 .membership-nft__text{
   font-size: 2rem;
   margin-top: 2rem;
+  @media (max-width: 600px) {
+    font-size: 1.5;
+  }
 }
 </style>

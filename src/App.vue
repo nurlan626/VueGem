@@ -2,16 +2,19 @@
   <div class="app">
     <Header></Header>
     <SectionFirst></SectionFirst>
-    <!-- <SectionSecond></SectionSecond>
-    <SectionThird></SectionThird> -->
+    <SectionSecond></SectionSecond>
+    <SectionThird></SectionThird>
+    <SectionFourth></SectionFourth>
   </div>
 </template>
 
 <script>
 import Header from '@/components/sections/Header.vue'
 import SectionFirst from '@/components/sections/SectionFirst.vue'
-// import SectionSecond from '@/components/sections/SectionSecond.vue'
-// import SectionThird from '@/components/sections/SectionThird.vue'
+import SectionSecond from '@/components/sections/SectionSecond.vue'
+import SectionThird from '@/components/sections/SectionThird.vue'
+import SectionFourth from '@/components/sections/SectionFourth.vue'
+
 
 import "@/scss/font-aventa/aventa-font.scss"
 import "@/scss/mixins.scss"
@@ -22,8 +25,9 @@ export default {
   components: {
     Header,
     SectionFirst,
-    // SectionSecond,
-    // SectionThird
+    SectionSecond,
+    SectionThird,
+    SectionFourth
     
   }
 }
