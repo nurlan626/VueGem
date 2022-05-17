@@ -5,6 +5,8 @@
     <SectionSecond></SectionSecond>
     <SectionThird></SectionThird>
     <SectionFourth></SectionFourth>
+    <SectionFifth></SectionFifth>
+    <SectionSix></SectionSix>
   </div>
 </template>
 
@@ -14,6 +16,10 @@ import SectionFirst from '@/components/sections/SectionFirst.vue'
 import SectionSecond from '@/components/sections/SectionSecond.vue'
 import SectionThird from '@/components/sections/SectionThird.vue'
 import SectionFourth from '@/components/sections/SectionFourth.vue'
+import SectionFifth from '@/components/sections/SectionFifth.vue'
+import SectionSix from '@/components/sections/SectionSix.vue'
+
+
 
 
 import "@/scss/font-aventa/aventa-font.scss"
@@ -27,7 +33,9 @@ export default {
     SectionFirst,
     SectionSecond,
     SectionThird,
-    SectionFourth
+    SectionFourth,
+    SectionFifth,
+    SectionSix
     
   }
 }
