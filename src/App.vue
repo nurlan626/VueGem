@@ -7,6 +7,9 @@
     <SectionFourth></SectionFourth>
     <SectionFifth></SectionFifth>
     <SectionSix></SectionSix>
+    <SectionSeven></SectionSeven>
+    <SectionEight></SectionEight>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -18,6 +21,12 @@ import SectionThird from '@/components/sections/SectionThird.vue'
 import SectionFourth from '@/components/sections/SectionFourth.vue'
 import SectionFifth from '@/components/sections/SectionFifth.vue'
 import SectionSix from '@/components/sections/SectionSix.vue'
+import SectionSeven from '@/components/sections/SectionSeven.vue'
+import SectionEight from '@/components/sections/SectionEight.vue'
+import Footer from '@/components/sections/Footer.vue'
+
+
+
 
 
 
@@ -35,7 +44,10 @@ export default {
     SectionThird,
     SectionFourth,
     SectionFifth,
-    SectionSix
+    SectionSix,
+    SectionSeven,
+    SectionEight,
+    Footer
     
   }
 }

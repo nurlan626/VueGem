@@ -194,6 +194,7 @@ export default {
   @media (max-width: 1400px) {
     position: static;
     order: 1;
+    max-width: 400px;
   }
   @media (max-width: 600px) {
     position: static;
