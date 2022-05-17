@@ -1,12 +1,20 @@
 <template>
   <section class="SectionFirst">
-      <div class="title">
-        <div class="title__title1"> 
-          THE FUTURE  
-        </div>
-        <div class="title__title2">
-          BELONGS TO YOU
-        </div>
+      <div class="sound">
+        <img
+          class="artifact-logo"
+          src="@/assets/sound1.svg"
+          alt="artifact-logo"
+        />
+        <img
+          class="artifact-logo"
+          src="@/assets/sound2.svg"
+          alt="artifact-logo"
+        />
+        
+      </div>
+      <div class="title2">
+         <img class="title2-img" src="@/assets/frame2.svg" alt="title2-img">
       </div>
       <div class="content">
         <div class="content__text-container">
@@ -61,25 +69,26 @@ export default {
   }
  
 }
-.title{
-  padding-top: 12.5rem;
-  margin-left: 10rem;
-  text-align: center;
-  font-size: 6.3rem;
-  font-family: "Aventa";
-  font-weight: 700;
-  line-height: 6.7rem;
+.sound{
+  display: flex;
+  gap: 2rem;
 
-  @media (max-width: 1200px) {
-    padding-top: 6rem;
-    margin-left: 0rem;
-  }
-  @media (max-width: 600px) {
-    font-size: 5rem;
-    padding-top: 3rem;
-    line-height: 5rem;
-    
-  }
+  position: absolute;
+  right: 5rem;
+  top: 12.5rem;
+
+}
+.title2{
+  display: flex;
+  justify-content: center;
+  margin-top: 4.8rem;
+  margin-left: 2.6rem;
+
+}
+.title2-img{
+  width: 100%;
+  max-width: 62rem;
+
 }
 .title__title1{
    padding-right: 30rem; 
@@ -91,8 +100,8 @@ export default {
   display: flex;
   justify-content: center;
   width: 100%;
-  // padding-left: 3.8rem;
   text-align: left;
+  margin-top: -4.5rem;
   
   @media (max-width: 1024px) {
       flex-direction: column;

@@ -46,6 +46,9 @@ export default {
     flex-direction: column;
     gap: 5rem;
   }
+  @media (max-width: 600px) {
+    padding-left: 4rem;
+  }
 
 }
 .powered {

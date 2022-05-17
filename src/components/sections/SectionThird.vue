@@ -139,11 +139,15 @@ export default {
 .right__text1 {
   font-size: 3.179rem;
   font-family: "Aventa";
+  font-weight: 500;
   width: 100%;
   max-width: 60rem;
-  line-height: 3.71rem;
+  line-height: 3.4rem;
   margin-top: -2rem;
-  margin-left: -0.2rem;
+  margin-left: -0.5rem;
+  margin-bottom: 5.2rem;
+  position: relative;
+  left: 1rem;
   @media (max-width: 600px) {
     margin-top: 0rem;
     font-size: 2rem;
@@ -194,7 +198,6 @@ export default {
   @media (max-width: 1400px) {
     position: static;
     order: 1;
-    max-width: 400px;
   }
   @media (max-width: 600px) {
     position: static;

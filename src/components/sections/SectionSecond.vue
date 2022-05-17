@@ -52,6 +52,7 @@ export default {
   
 }
 .left{
+  margin-left: 1rem;
     @media (max-width:1440px) {
       position: relative;
       left: 139px;
@@ -110,7 +111,7 @@ export default {
 
 .left__title-membership{
   font-size: 2.4rem;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
   @media (max-width:600px) {
     font-size: 2rem;
   }
