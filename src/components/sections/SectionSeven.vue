@@ -57,5 +57,9 @@ export default {
         padding: 5rem;
         margin-top: 2rem;
     }
+    @media (max-width: 600px) {
+        padding: 2rem;
+        margin: 0;
+    }
 }
 </style>

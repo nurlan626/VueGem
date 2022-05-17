@@ -16,7 +16,7 @@
       </div>
       <div class="right__text">
         <div class="right__text1">
-          Premium NFT’s will come with infinite utility options, namely: DROP,
+          <span class="span">Premium NFT’s </span>will come with infinite utility options, namely: DROP,
           EVENT and POWER utilities
         </div>
         <div class="right__text2">
@@ -25,7 +25,7 @@
             As an owner, you will get a whitelist or raffle access to the most
             exclusive NFT drops GemBox will create in collaboration with
             fashion, sneakers, music, gaming and designers brands Gifts will
-            also be an important part of the DROP utilities, so PREMIUM NFT
+            also be an important part of the DROP utilities, so <span class="span">PREMIUM NFT </span>
             holders will receive GemBox first official drop by the world most
             famous virtual supermodel noonoouri who has so far already
             collaborated with top fashion brands such as Dior, Valentino, H&M,
@@ -108,6 +108,7 @@ export default {
   line-height: 12rem;
   margin-left: -2.3rem;
   margin-top: 0.2rem;
+  color:#48f08c;
   @media (max-width: 600px) {
     font-size: 8rem;
   }
@@ -131,6 +132,7 @@ export default {
   text-align: right;
   margin-top: 0.3rem;
   padding-right: 0rem;
+  color:#48f08c;
 }
 
 .right__text {
@@ -152,6 +154,7 @@ export default {
     margin-top: 0rem;
     font-size: 2rem;
     line-height: 2.5rem;
+    padding-right: 1rem;
   }
 }
 .right__text2 {
@@ -182,6 +185,9 @@ export default {
   font-size: 1.726rem;
   line-height: 2.203rem;
   max-width: 58.4rem;
+  @media (max-width: 600px) {
+    padding: 1rem;
+  }
 }
 .right__text2-text--margin{
   margin-top: 1rem;
@@ -221,6 +227,9 @@ export default {
   @media (max-width: 1400px) {
     display: none;
   }
+}
+.span{
+  color:#48f08c;
 }
 
 </style>

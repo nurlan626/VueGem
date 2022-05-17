@@ -21,14 +21,12 @@
             <div class="coming-up__text-container coming-up__text-container--june7th">
               <div class="event-tile-box">
                 <h1 class="coming-up-text-title">JUNE 7th 2022</h1>
-                 <img
+                 <!-- <img
                   class="circle"
                   src="@/assets/circle.png"
                   alt="vector"
-                />
-
+                  /> -->
               </div>
-              
               <img
                 class="coming-up__vector-img"
                 src="@/assets/Vector.png"
@@ -54,7 +52,8 @@
               </video>
             </div>
             <div class="coming-up__text-container coming-up__text-container-latejune">
-              <h1 class="coming-up-text-title">LATE JUNE 2022</h1>
+                <h1 class="coming-up-text-title">LATE JUNE 2022</h1>
+                          
               <img
                 class="coming-up__vector-img"
                 src="@/assets/Vector.png"
@@ -99,7 +98,14 @@
             </div>
           </div>
         </div>
-        <div class="vertical-line">.
+        <!-- <div class="vertical-line">.
+        </div> -->
+        <div class="vertical">
+           <img
+                class="vertical-img"
+                src="@/assets/vertical.svg"
+                alt="vertical"
+              />
         </div>
         <!-- events right side -->
         <div class="coming-up__events-right-side">
@@ -400,6 +406,10 @@ video {
 .circle{
   width: 2.5rem;
   height: 2.5rem;
+
+  position: relative;
+  left: 3.5rem;
+  top: -2rem;
   @media (max-width: 1024px) {
     display: none;
   }
@@ -407,11 +417,7 @@ video {
 .event-tile-box {
   display: flex;
 }
-.circle{
-  position: relative;
-  left: 3.5rem;
-  top: -2rem;
-}
+
 .coming-up__events-right-side{
   position: relative;
   left: 5.2rem;
@@ -432,6 +438,7 @@ video {
   // top: 10rem;
   margin-top: 26.5rem;
   margin-right: 4.2rem;
+  margin-left: 1rem;
   @media (max-width: 1024px) {
     margin: 5rem auto;
   }
@@ -453,4 +460,11 @@ video {
     margin: 6rem auto;
   }
 }
+.vertical{
+    padding-top: 5rem;
+    @media (max-width: 1024px) {
+      display: none;
+  }
+}
+
 </style>

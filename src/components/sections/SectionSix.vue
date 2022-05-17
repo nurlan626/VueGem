@@ -5,7 +5,7 @@
           <img class="title-img" src="@/assets/Vector.png" alt="vector">
       </div>
       <div class="text">
-        GemBox si a product of Artifact Labs, an NFT company led by veteran technologists, creators and community builders who want to close gaps between the value created and the amount digital creators actually make. Artifact Labs is co-founded by Jotta 2 Group operating in over 22 countries worldwide.
+        GemBox si a product of Artifact Labs, an NFT company led by veteran technologists, creators and community builders who want to close gaps between the value created and the amount digital creators actually make. Artifact Labs is co-founded by <u class="u">Jotta 2 Group</u> operating in over 22 countries worldwide.
       </div>
       <div class="founders">
         <div class="item">
@@ -184,8 +184,10 @@ export default {
   margin-right: 3.2rem;
   @media (max-width: 1024px) {
     padding: 0rem 2rem 0 2rem;
-    
   }
-
+}
+.u{
+  line-height: 2rem;
+  font-weight: 300;
 }
 </style>

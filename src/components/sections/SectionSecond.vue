@@ -120,6 +120,7 @@ export default {
   font-size: 1.8rem;
   text-align: right;
   margin-top: 0.4rem;
+  color: #49f48e;
   @media (max-width:600px) {
     font-size: 1.3rem;
     text-align: center;
