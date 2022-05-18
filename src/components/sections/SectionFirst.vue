@@ -1,15 +1,20 @@
 <template>
   <section class="SectionFirst">
+    <audio controls preload autoplay id="audio" >
+      <source src="@/assets/music/music.wav" type="audio/wav" />
+    </audio>
     <div class="sound">
       <img 
         class="sound-img" 
         src="@/assets/sound1.svg" 
-        alt="artifact-logo"
+        alt="artifact-logo" 
+        @click="play"
       />
       <img 
-        class="sound-img" 
-        src="@/assets/sound2.svg" 
-        alt="artifact-logo" 
+          class="sound-img" 
+          src="@/assets/sound2.svg" 
+          alt="artifact-logo" 
+          @click="stop"
       />
     </div>
     <div class="title2">
@@ -76,7 +81,29 @@ import "@/scss/mixins.scss";
 
 export default {
   name: "section-first",
+  methods: {
+    data() {
+      return {
+        mute: true
+      }
 
+    },
+    play() {
+      let audio = document.getElementById("audio");
+      if (this.mute){
+        audio.play();
+        this.mute = !this.mute;
+      }
+    },
+    stop(){
+       let audio = document.getElementById("audio");
+      if (!this.mute){
+        audio.pause(); 
+        this.mute = !this.mute;
+      }
+
+    }
+  }
 };
 </script>
 
@@ -101,9 +128,14 @@ export default {
   }
 }
 .sound-img {
+  border: 2px solid transparent;
   @media (max-width: 600px) {
     width: 2rem;
   }
+  &:hover{
+      border: 2px solid grey;
+  }
+
 }
 .title2 {
   display: flex;
