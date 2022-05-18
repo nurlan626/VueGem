@@ -1,14 +1,14 @@
 <template>
   <section class="SectionFourth">
-    <div class="container">
-      <div class="title-box">
-        <div class="title">BE DROP READY!</div>
-        <div class="date">02 : 13 : 35 : 50</div>
-        <div class="days">
+    <div class="drop-ready__container">
+      <div class="drop-ready__title-box">
+        <div class="drop-ready__title">BE DROP READY!</div>
+        <div class="drop-ready__date">02 : 13 : 35 : 50</div>
+        <div class="drop-ready__days">
           <div>
             Days
           </div>
-          <div  class="days__hours">
+          <div  class="drop-ready__hours">
             Hours
           </div>
           <div>
@@ -19,8 +19,8 @@
           </div>
         </div>
       </div>      
-      <input  class="input" type="text" placeholder="Email">
-      <button class="button">Get your name on the list</button>
+      <input  class="drop-ready__input" type="text" placeholder="Email">
+      <button class="drop-ready__button">Get your name on the list</button>
     </div>
      
   </section>
@@ -33,7 +33,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.SectionFourth{
+
+.SectionFourth {
   background-color: rgba(0, 0, 0, 0);
   display: flex;
   flex-direction: column;
@@ -45,21 +46,23 @@ export default {
     margin-top: 20rem;
   }
 }
-.container{
+
+.drop-ready__container {
   display: flex;
   flex-direction: column;
   align-items: center;
   color: white;
 }
 
-.title{
+.drop-ready__title {
   font-family: "Bebas Neue";
   font-size: 10.256rem;
    @media (max-width: 600px) {
     font-size: 8rem;
   }
 }
-.date{
+
+.drop-ready__date {
   margin-top: 1rem;
   font-family: "Bebas Neue";
   font-size: 10.6rem;
@@ -70,7 +73,8 @@ export default {
   }
 
 }
-.days{
+
+.drop-ready__days {
   margin-top: 0.2rem;
   display: flex;
   font-family: "Aventa";
@@ -78,13 +82,13 @@ export default {
   width: 100%;
   justify-content: space-between;
   color: #48f08c;
-  
-
 }
-.days__hours{
+
+.drop-ready__hours {
   margin-left: 3.5rem;
 }
-.input{
+
+.drop-ready__input {
   margin-top: 3rem;
   height: 4.5rem;
   width: 50rem;
@@ -92,11 +96,13 @@ export default {
   border: 1px solid grey;
   font-size: 2rem;
   padding-left: 1.2rem;
+  color: #ffffff;
   @media (max-width: 600px) {
     width: 35rem;
   }
 }
-.button{
+
+.drop-ready__button {
   margin-top: 1.05rem;
   font-family: 'Aventa';
   font-size: 2rem;
@@ -108,14 +114,10 @@ export default {
   color: white;
   position: relative;
   top: 1rem;
-  
   width: 50rem;
-
   @media (max-width: 600px) {
     width: 35rem;
       font-size: 1.5rem;
-
-
   }
 }
 </style>
