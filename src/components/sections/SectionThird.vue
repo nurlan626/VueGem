@@ -70,7 +70,7 @@ export default {
   justify-content: center;
   color: white;
   font-display: "Avesta";
-  @media (max-width: 1400px) {
+  @media (max-width: 1024px) {
     flex-direction: column;
     align-items: center;
     gap: 10rem;
@@ -194,14 +194,18 @@ export default {
 }
 .left-video {
   width: 100%;
-  max-width: 500px;
+  max-width: 50rem;
   transform: rotate(25deg);
   @media (max-width: 1920px) {
     position: relative;
     top: -30rem;
     right: 13rem;
   }
-  @media (max-width: 1400px) {
+   @media (max-width: 1435px) {
+    max-width: 40rem;
+  }
+
+  @media (max-width: 1024px) {
     position: static;
     order: 1;
   }

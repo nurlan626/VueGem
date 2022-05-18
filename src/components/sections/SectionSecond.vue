@@ -41,18 +41,22 @@ export default {
   color: white;
   justify-content: center;
   font-display: "Avesta";
-  @media (max-width:1439px) {
+  @media (max-width:1435px) {
+    gap: 0rem;
+  }
+  @media (max-width:1024px) {
     flex-direction: column;
     align-items: center;
   }
    @media (max-width:600px) {
     margin-top: 7rem;
+    padding: 0 0rem 0 5rem;
 
   }
   
 }
 .left{
-  margin-left: 1rem;
+  margin-left: -4.2rem;
     @media (max-width:1440px) {
       position: relative;
       left: 139px;
@@ -128,16 +132,25 @@ export default {
 }
 .right-video{
   width: 100%;
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 45rem;
+  max-height: 45rem;
   transform: rotate(-25deg);
    @media (max-width:1920px) {
     position: relative;
     top: -30rem;
     left: 4rem;
   }
-   @media (max-width:1435px) {
-    position: static;
+  @media (max-width:1435px) {
+    max-width: 35rem;
+    max-height: 35rem;
+    top: -30rem;
+    left: -6rem; 
+  }
+   @media (max-width:1024px) {
+    position: relative;
+    top: 10rem;
+    left: 0rem; 
+    
   }
    @media (max-width:820px) {
     max-width: 400px;

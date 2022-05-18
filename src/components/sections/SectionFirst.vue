@@ -2,12 +2,12 @@
   <section class="SectionFirst">
       <div class="sound">
         <img
-          class="artifact-logo"
+          class="sound-img"
           src="@/assets/sound1.svg"
           alt="artifact-logo"
         />
         <img
-          class="artifact-logo"
+          class="sound-img"
           src="@/assets/sound2.svg"
           alt="artifact-logo"
         />
@@ -65,7 +65,7 @@ export default {
   padding: 6.5rem auto 10rem auto;
   color: white;
   @media (max-width: 600px) {
-    padding: 6.5rem 2rem 10rem 2rem;
+    padding: 0rem 2rem 10rem 2rem;
   }
  
 }
@@ -76,7 +76,15 @@ export default {
   position: absolute;
   right: 5rem;
   top: 12.5rem;
-
+  @media (max-width: 600px) {
+    right: 2rem;
+    top: 7.5rem;
+  }
+}
+.sound-img{
+  @media (max-width: 600px) {
+    width: 2rem;
+  }
 }
 .title2{
   display: flex;
