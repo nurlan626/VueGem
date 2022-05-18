@@ -11,7 +11,7 @@
         </div>
         <div class="left__text">
           <div class="left__text1">
-            Community is all about it’s members. That’s why we made BASE NFT’s as first step in creating a legendary community.
+            Community is all about it’s members. That’s why we made <span class="span">BASE NFT’s </span>as first step in creating a legendary community.
           </div>
           <div class="left__text2">
             BASE NFT’s are affordable and each is coming with list of utilities like whitelisting for future drops, raffles for exclusive drops or invitations for special physical and metaverse events. No need for a FOMO since you can always upgrade your BASE NFT’s with premium utilities of your choice.
@@ -107,6 +107,9 @@ export default {
   font-size: 14rem;
   font-family: "Bebas Neue";
   line-height: 12rem;
+  -webkit-text-stroke: 0.1rem #49f48e;
+  -webkit-text-fill-color: transparent;
+
   @media (max-width:600px) {
     font-size: 6rem;
     line-height: 7rem;;
@@ -201,5 +204,8 @@ export default {
     margin-right: 1rem;
     padding-right: 3rem; 
   }
+}
+.span{
+  color: #49f48e;
 }
 </style>

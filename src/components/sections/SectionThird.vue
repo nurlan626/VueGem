@@ -220,7 +220,8 @@ export default {
 }
 .verticalText{
   transform: rotate(-90deg);
-  color: #48f08c;
+  -webkit-text-stroke: 0.1rem #49f48e;
+  -webkit-text-fill-color: transparent;
   white-space: nowrap;
   position: absolute;
   right: 78.5rem;
