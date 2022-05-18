@@ -1,10 +1,10 @@
 <template>
   <section class="SectionEight">
-      <div class="title-box">
-        <div class="title">Get invited to the launch</div>
-        <div class="subtitle">So you don't miss out on all the best stuff.</div>
+      <div class="invitation__title-box">
+        <div class="invitation__title">Get invited to the launch</div>
+        <div class="invitation__subtitle">So you don't miss out on all the best stuff.</div>
       </div>
-      <button class="button">Put your Email here</button>
+      <button class="invitation__button">Put your Email here</button>
   </section>
 </template>
 
@@ -15,7 +15,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.SectionEight{
+
+.SectionEight {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,8 +31,7 @@ export default {
   }
 }
 
-
-.title{
+.invitation__title {
   font-family: "Bebas Neue";
   font-size: 7rem;
   margin-left: 2rem;
@@ -39,7 +39,8 @@ export default {
      font-size: 5rem;
   }
 }
-.subtitle{
+
+.invitation__subtitle {
   margin-top: -0.5rem;
   margin-left: 2.2rem;
   font-family: "Aventa";
@@ -48,10 +49,9 @@ export default {
   @media (max-width: 600px) {
     font-size: 2rem;
   }
-
 }
 
-.button{
+.invitation__button {
   margin-top: 3.7rem;
   font-family: 'Aventa';
   font-size: 1.793rem;
@@ -63,13 +63,8 @@ export default {
   color: white;
   position: relative;
   top: 1rem;
-  
   width: 100%;
   max-width: 58.6rem;
   margin-left: 2.2rem;
-
-  @media (max-width: 600px) {
-   
-  }
 }
 </style>
