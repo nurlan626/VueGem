@@ -18,12 +18,9 @@
             Seconds
           </div>
         </div>
-      </div>
-      
-      
+      </div>      
       <input  class="input" type="text" placeholder="Email">
       <button class="button">Get your name on the list</button>
-
     </div>
      
   </section>

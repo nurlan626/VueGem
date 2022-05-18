@@ -1,7 +1,7 @@
 <template>
   <section class="SectionThird">
     <div class="left-video">
-      <video class="video" autoplay loop>
+      <video class="video" autoplay loop preload>
         <source src="@/assets/video/premium_final.mp4" type="video/mp4" />
       </video>
     </div>

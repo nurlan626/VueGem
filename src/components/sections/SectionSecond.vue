@@ -19,8 +19,8 @@
         </div>
       </div>
       <div class="right-video">
-        <video class="video" autoplay loop>
-              <source src="@/assets/video/metalna_final.mp4" type="video/mp4">
+        <video class="video" autoplay loop preload>
+          <source src="@/assets/video/metalna_final.mp4" type="video/mp4">
         </video>
       </div>
   </section>

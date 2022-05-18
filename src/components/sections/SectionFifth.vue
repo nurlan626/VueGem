@@ -14,7 +14,7 @@
         <div class="coming-up__events-left-side">
           <div class="coming-up__events coming-up__launch-edition">
             <div class="coming-up__video-box coming-up__video-box-1">
-              <video class="video coming-up__video-1" loop autoplay>
+              <video class="video coming-up__video-1" loop autoplay preload>
                 <source src="@/assets/video/kawai.mp4" type="video/mp4" />
               </video>
             </div>
@@ -44,7 +44,7 @@
           </div>
           <div class="coming-up__events coming-up__first-event">
             <div class="coming-up__video-box coming-up__video-box-3">
-              <video class="video coming-up__video-3" loop autoplay>
+              <video class="video coming-up__video-3" loop autoplay preload>
                 <source
                   src="@/assets/video/fresh-island-01.mp4"
                   type="video/mp4"
@@ -71,7 +71,7 @@
           </div>
           <div class="coming-up__events coming-up__join-us">
             <div class="coming-up__video-box coming-up__video-box-5">
-              <video class="video coming-up-video-2023" loop autoplay>
+              <video class="video coming-up-video-2023" loop autoplay preload>
                 <source
                   src="@/assets/video/fresh-island-03.mp4"
                   type="video/mp4"
@@ -128,7 +128,7 @@
               </p>
             </div>
             <div class="coming-up__video-box coming-up__video-box-2">
-              <video class="video coming-up__video-midjune" loop autoplay>
+              <video class="video coming-up__video-midjune" loop autoplay preload>
                 <source
                   src="@/assets/video/noonoouri_02.mp4"
                   type="video/mp4"
@@ -153,7 +153,7 @@
               </p>
             </div>
             <div class="coming-up__video-box coming-up__video-box-4">
-              <video class="video coming-up__video-4-q3" loop autoplay>
+              <video class="video coming-up__video-4-q3" loop autoplay preload>
                 <source src="@/assets/video/dbsb.mp4" type="video/mp4" />
               </video>
             </div>

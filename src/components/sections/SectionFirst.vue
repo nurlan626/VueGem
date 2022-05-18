@@ -1,7 +1,10 @@
 <template>
   <section class="SectionFirst">
-    <audio controls preload autoplay id="audio" >
-      <source src="@/assets/music/music.wav" type="audio/wav" />
+    <audio  preload autoplay id="audio" >
+      <source 
+      src="@/assets/music/music.wav" 
+      type="audio/wav" 
+      />   
     </audio>
     <div class="sound">
       <img 
@@ -18,7 +21,10 @@
       />
     </div>
     <div class="title2">
-      <img class="title2-img" src="@/assets/frame2.svg" alt="title2-img" />
+      <img 
+        class="title2-img" 
+        src="@/assets/frame2.svg" 
+        alt="title2-img" />
     </div>
     <div class="content">
       <div class="content__text-container">
@@ -54,7 +60,7 @@
         </div>
       </div>
       <div class="video-box">
-        <video class="video" autoplay loop>
+        <video class="video" autoplay loop preload>
           <source src="@/assets/video/kawai.mp4" type="video/mp4" />
         </video>
       </div>
@@ -92,7 +98,7 @@ export default {
       let audio = document.getElementById("audio");
       if (this.mute){
         audio.play();
-        this.mute = !this.mute;
+        this.mute = !this.mute; 
       }
     },
     stop(){
