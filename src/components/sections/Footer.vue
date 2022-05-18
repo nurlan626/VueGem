@@ -1,25 +1,25 @@
 <template>
   <footer class="footer">
-    <div class="left">
-      <div class="powered">Powered by:</div>
+    <div class="footer__left">
+      <div class="footer__powered">Powered by:</div>
       <img
-        class="artifact-logo"
+        class="footer__artifact-logo"
         src="@/assets/Artifact-logo.png"
         alt="artifact-logo"
       />
-      <div class="copyright-box">
+      <div class="footer__copyright-box">
         <div>© Copyright Artifact Entertainment LTD</div>
         <div>All Rights Reserved. 2022</div>
       </div>
     </div>
-    <div class="right">
-      <div class="privacy">Privacy policy</div>
+    <div class="footer__right-side">
+      <div class="footer__privacy">Privacy policy</div>
       <div>
-        <div class="join">Join our community</div>
-        <div class="icons">
-          <img class="icon discord" src="@/assets/discord-logo-grey.png" alt="" />
-          <img class="icon twiter" src="@/assets/twiter-logo-grey.png" alt="" />
-          <img class="icon instagram" src="@/assets/instagram-logo-grey.png" alt="" />
+        <div class="footer__join">Join our community</div>
+        <div class="footer__icons">
+          <img class="footer__icon icon discord" src="@/assets/discord-logo-grey.png" alt="" />
+          <img class="footer__icon icon twiter" src="@/assets/twiter-logo-grey.png" alt="" />
+          <img class="footer__icon icon instagram" src="@/assets/instagram-logo-grey.png" alt="" />
         </div>
       </div>
     </div>
@@ -33,6 +33,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
 .footer {
   margin-top: 19.15rem;
   color: #919B96;
@@ -49,16 +50,17 @@ export default {
   @media (max-width: 600px) {
     padding-left: 4rem;
   }
-
 }
-.powered {
+
+.footer__powered {
   font-size: 1.118rem;
 }
-.artifact-logo {
+
+.footer__artifact-logo {
   margin-top: 1.8rem;
 }
 
-.copyright-box {
+.footer__copyright-box {
   display: flex;
   gap: 3rem;
   font-size: 1.6rem;
@@ -68,12 +70,14 @@ export default {
     font-size: 1.2rem;
   }
 }
-.right {
+
+.footer__right {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.privacy{
+
+.footer__privacy {
   font-size: 1.6rem;
   margin-top: 1rem;
   margin-right: 5.7rem;
@@ -84,7 +88,8 @@ export default {
     font-size: 1.2rem;
   }
 }
-.icons{
+
+.footer__icons {
   width: 100%;
   max-width: 46.2rem;
   display: flex;
@@ -94,12 +99,14 @@ export default {
     justify-content: flex-start;
   }
 }
-.icon{
+
+.footer__icon {
   width: 3.3rem;
   position: relative;
   top: -0.5rem;
 }
-.join{
+
+.footer__join {
   margin-bottom: 2rem;
   font-size: 1.118rem;
 }
