@@ -60,7 +60,7 @@
         </div>
       </div>
       <div class="video-box">
-        <video class="video" autoplay loop preload  muted playsinline>
+        <video class="video" autoplay loop preload>
           <source src="@/assets/video/kawai.mp4" type="video/mp4" />
         </video>
       </div>
@@ -72,7 +72,7 @@
       </div>
       <div class="membership-nft__text">
         If you are hoping to be more than a member, get ready for our initial,
-        founder edition drop comprising
+        founder edition drop comprisingz
         <span class="membership-nft__span">50 Premium</span> NFTs and
         <span class="membership-nft__span">5,000 Base</span> NFTs. Steady your
         FOMO! Yes, premium NFT’s come with an infinite utility option, but Base
