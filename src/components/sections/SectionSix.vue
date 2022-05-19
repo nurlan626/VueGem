@@ -190,6 +190,10 @@ export default {
   @media (max-width: 1024px) {
     margin: 5.3rem auto 0 auto;
   }
+  @media (max-width: 600px) {
+    font-size: 1.2rem;
+    
+  }
 }
 .u{
   line-height: 2rem;

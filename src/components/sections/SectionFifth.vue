@@ -188,10 +188,18 @@ export default {
   font-family: "Bebas Neue";
   margin-bottom: -1.5rem;
   margin-left: 0.5rem;
+  @media (max-width: 600px) {
+    font-size: 7rem;
+  }
+
 
 }
 .title-img {
   margin-left: -14.5rem;
+  @media (max-width: 600px) {
+    margin-left: -8.5rem;
+  }
+
   
 }
 
@@ -346,7 +354,9 @@ video {
     @media (max-width: 1024px) {
     margin: 0 auto;
     line-height: 5rem;
-
+  }
+     @media (max-width: 600px) {
+    font-size: 4rem;;
   }
 }
 
@@ -425,7 +435,7 @@ video {
   margin-top: 23rem;
    @media (max-width: 1024px) {
     position: static;
-    margin-top: 5rem;
+    margin-top: 0rem; 
     }
 }
 

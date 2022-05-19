@@ -1,11 +1,11 @@
 <template>
   <section class="SectionFirst">
-    <audio  preload autoplay id="audio" >
+    <!-- <audio  preload autoplay id="audio" >
       <source 
       src="@/assets/music/music.wav" 
       type="audio/wav" 
       />   
-    </audio>
+    </audio> -->
     <div class="sound">
       <img 
         class="sound-img" 
@@ -60,8 +60,9 @@
         </div>
       </div>
       <div class="video-box">
-        <video class="video" autoplay loop preload>
+        <video class="video" autoplay loop preload muted playsinline>
           <source src="@/assets/video/kawai.mp4" type="video/mp4" />
+          <source src="@/assets/video/kawai.mp4" type="video/mp4" />  
         </video>
       </div>
     </div>
