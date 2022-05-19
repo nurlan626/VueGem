@@ -14,9 +14,12 @@
         <div class="events-left-side">
           <div class="event">
             <div class="event__video-box">
-              <video class="video video__video-june7th" loop autoplay preload  muted playsinline>
+              <!-- <video class="video video__video-june7th" loop autoplay preload  muted playsinline>
                 <source src="@/assets/video/kawai.mp4" type="video/mp4" />
-              </video>
+              </video> -->
+                <video class="video video__video-june7th" autoplay loop preload  muted playsinline>
+                  <source src="https://drive.google.com/uc?export=download&id=1cUXdAcedQ9RWn1t25cYsDILjc9U1X78L" type="video/mp4" />
+                </video>
             </div>
             <div class="event__text event__text-june7th">
               <div class="event_date-box">
@@ -39,9 +42,15 @@
           </div>
           <div class="event">
             <div class="event__video-box event__video-box-latejune">
-              <video class="video coming-up__video-3" loop autoplay preload>
+              <!-- <video class="video coming-up__video-3" loop autoplay preload>
                 <source
                   src="@/assets/video/fresh-island-01.mp4"
+                  type="video/mp4"
+                />
+              </video> -->
+              <video class="video coming-up__video-3"  autoplay loop preload  muted playsinline>
+                <source
+                  src="https://drive.google.com/uc?export=download&id=1bo4FHHMFzsbQlZdr0VYmtiFNuRaCHmet"
                   type="video/mp4"
                 />
               </video>
@@ -66,9 +75,15 @@
           </div>
           <div class="event">
             <div class="event__video-box">
-              <video class="video coming-up-video-2023" loop autoplay preload  muted playsinline>
+              <!-- <video class="video coming-up-video-2023" loop autoplay preload  muted playsinline>
                 <source
                   src="@/assets/video/fresh-island-03.mp4"
+                  type="video/mp4"
+                />
+              </video> -->
+               <video class="video coming-up-video-2023"  autoplay loop preload  muted playsinline>
+                <source
+                  src="https://drive.google.com/uc?export=download&id=17NpEQPmESP4r9oemCS3rR3QJ-t0lzrVQ"
                   type="video/mp4"
                 />
               </video>
@@ -123,9 +138,15 @@
               </p>
             </div>
             <div class="event__video-box coming-up__video-box-2">
-              <video class="video coming-up__video-midjune" loop autoplay preload  muted playsinline>
+              <!-- <video class="video coming-up__video-midjune" loop autoplay preload  muted playsinline>
                 <source
                   src="@/assets/video/noonoouri_02.mp4"
+                  type="video/mp4"
+                />
+              </video> -->
+              <video class="video coming-up__video-midjune"  autoplay loop preload  muted playsinline>
+                <source
+                  src="https://drive.google.com/uc?export=download&id=1qVKsemc515stou6ESvUKWrcAFhg59dIL"
                   type="video/mp4"
                 />
               </video>
@@ -148,8 +169,14 @@
               </p>
             </div>
             <div class="event__video-box event__video-box-4">
-              <video class="video video_video-q3q4" loop autoplay preload  muted playsinline>
+              <!-- <video class="video video_video-q3q4" loop autoplay preload  muted playsinline>
                 <source src="@/assets/video/dbsb.mp4" type="video/mp4" />
+              </video> -->
+              <video class="video video_video-q3q4"  autoplay loop preload  muted playsinline>
+                <source
+                  src="https://drive.google.com/uc?export=download&id=1cEG3zsw2QGZr7uDH3cx22H1K8z92JjI-"
+                  type="video/mp4"
+                />
               </video>
             </div>
           </div>

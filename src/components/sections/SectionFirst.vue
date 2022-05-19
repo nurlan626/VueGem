@@ -60,9 +60,11 @@
         </div>
       </div>
       <div class="video-box">
-        <video class="video" autoplay loop preload muted playsinline>
+        <!-- <video class="video" autoplay loop preload muted playsinline>
           <source src="@/assets/video/kawai.mp4" type="video/mp4" />
-          <source src="@/assets/video/kawai.mp4" type="video/mp4" />  
+        </video> -->
+        <video class="video" autoplay loop preload muted playsinline>
+          <source src="https://drive.google.com/uc?export=download&id=1cUXdAcedQ9RWn1t25cYsDILjc9U1X78L" type="video/mp4" />
         </video>
       </div>
     </div>
