@@ -60,7 +60,7 @@
         </div>
       </div>
       <div class="video-box">
-        <video class="video" autoplay loop preload>
+        <video class="video" autoplay loop preload  muted playsinline>
           <source src="@/assets/video/kawai.mp4" type="video/mp4" />
         </video>
       </div>
