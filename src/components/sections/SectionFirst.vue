@@ -87,6 +87,9 @@ import "@/scss/mixins.scss";
 
 export default {
   name: "section-first",
+  mounted() {
+    this.play();
+  },
   methods: {
     data() {
       return {
@@ -96,10 +99,9 @@ export default {
     },
     play() {
       let audio = document.getElementById("audio");
-      if (this.mute){
-        audio.play();
-        this.mute = !this.mute; 
-      }
+      audio.volume = 0.08;
+      audio.play();
+      this.mute = !this.mute; 
     },
     stop(){
        let audio = document.getElementById("audio");
