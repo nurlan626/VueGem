@@ -137,6 +137,9 @@ export default {
 
 .right__text {
   margin-left: 1.5rem;
+   @media (max-width: 600px) {
+    padding: 2rem;
+  }
 }
 .right__text1 {
   font-size: 3.179rem;
@@ -186,7 +189,7 @@ export default {
   line-height: 2.203rem;
   max-width: 58.4rem;
   @media (max-width: 600px) {
-    padding: 1rem;
+    padding: 0rem;
   }
 }
 .right__text2-text--margin{
@@ -212,7 +215,7 @@ export default {
   @media (max-width: 600px) {
     position: static;
     order: 1;
-    max-width: 300px;
+    max-width: 270px;
   }
 }
 .video {

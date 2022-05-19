@@ -40,7 +40,7 @@ export default {
     }
 }
 .title-img{
-    margin-top: 1rem;
+        margin-top: 1rem;
    margin-left: 0.5rem;
    height: 0.6rem;
    width: 12rem;

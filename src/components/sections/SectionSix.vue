@@ -99,13 +99,17 @@ export default {
     @media (max-width: 600px) {
       font-size: 5rem;
       margin-bottom: -1rem;
+      margin-left: 0;
     }
 }
 .title-img{
    margin-left: -3.5rem;
    margin-top: 1.1rem;
    width: 16rem;
-   height: 0.7rem;;
+   height: 0.7rem;
+  @media (max-width: 600px) {
+      margin-left: 0;
+   }
 }
 .text{
   margin-right: 2rem;;
@@ -117,7 +121,7 @@ export default {
   font-size: 2.206rem;
   line-height: 2.431rem;
   @media (max-width: 1024px) {
-      padding: 5rem;
+      padding: 3rem;
       margin-top: 3rem;
     }
 }
@@ -132,6 +136,7 @@ export default {
   @media (max-width: 1024px) {
       padding: 0rem 5rem 0 5rem;
       flex-wrap: wrap;
+
   }
 
   
@@ -183,7 +188,7 @@ export default {
   font-size: 1.567rem;
   margin-right: 3.2rem;
   @media (max-width: 1024px) {
-    padding: 0rem 2rem 0 2rem;
+    margin: 5.3rem auto 0 auto;
   }
 }
 .u{

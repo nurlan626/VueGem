@@ -9,31 +9,26 @@
         
       </div>
       
-      <div class="coming-up__events-container">
-        <!-- events left side -->
-        <div class="coming-up__events-left-side">
-          <div class="coming-up__events coming-up__launch-edition">
-            <div class="coming-up__video-box coming-up__video-box-1">
-              <video class="video coming-up__video-1" loop autoplay preload  muted playsinline>
+      <div class="events">
+        <!-- events left side --> 
+        <div class="events-left-side">
+          <div class="event">
+            <div class="event__video-box">
+              <video class="video video__video-june7th" loop autoplay preload  muted playsinline>
                 <source src="@/assets/video/kawai.mp4" type="video/mp4" />
               </video>
             </div>
-            <div class="coming-up__text-container coming-up__text-container--june7th">
-              <div class="event-tile-box">
-                <h1 class="coming-up-text-title">JUNE 7th 2022</h1>
-                 <!-- <img
-                  class="circle"
-                  src="@/assets/circle.png"
-                  alt="vector"
-                  /> -->
+            <div class="event__text event__text-june7th">
+              <div class="event_date-box">
+                <h1 class="event_date">JUNE 7th 2022</h1>
               </div>
               <img
                 class="coming-up__vector-img"
                 src="@/assets/Vector.png"
                 alt="vector"
               />
-              <p class="coming-up-text-description">Launch Edition NFT drop</p>
-              <p class="coming-up-text-paragraph">
+              <p class="event__title ">Launch Edition NFT drop</p>
+              <p class="event__description">
                 The GemBox Membership edition NFT collection will light up the
                 days to come. Only 50 Premium and 5,000 Base NFTs will be
                 available. Steady your FOMO. Yes, premium NFTs come with an
@@ -42,8 +37,8 @@
               </p>
             </div>
           </div>
-          <div class="coming-up__events coming-up__first-event">
-            <div class="coming-up__video-box coming-up__video-box-3">
+          <div class="event">
+            <div class="event__video-box event__video-box-latejune">
               <video class="video coming-up__video-3" loop autoplay preload>
                 <source
                   src="@/assets/video/fresh-island-01.mp4"
@@ -51,26 +46,26 @@
                 />
               </video>
             </div>
-            <div class="coming-up__text-container coming-up__text-container-latejune">
-                <h1 class="coming-up-text-title">LATE JUNE 2022</h1>
+            <div class="event__text event__text-latejune">
+                <h1 class="event_date">LATE JUNE 2022</h1>
                           
               <img
                 class="coming-up__vector-img"
                 src="@/assets/Vector.png"
                 alt="vector"
               />
-              <p class="coming-up-text-description">
+              <p class="event__title">
                 First EVENT utility delivered
               </p>
-              <p class="coming-up-text-paragraph">
+              <p class="event__description">
                 Premium NFT holders get 7 days of VIP treatment and
                 accommodation at the Fresh Island Festival on Pag island in
                 Croatia.
               </p>
             </div>
           </div>
-          <div class="coming-up__events coming-up__join-us">
-            <div class="coming-up__video-box coming-up__video-box-5">
+          <div class="event">
+            <div class="event__video-box">
               <video class="video coming-up-video-2023" loop autoplay preload  muted playsinline>
                 <source
                   src="@/assets/video/fresh-island-03.mp4"
@@ -78,17 +73,17 @@
                 />
               </video>
             </div>
-            <div class="coming-up__text-container coming-up__text-container--beyond">
-              <h1 class="coming-up-text-title">2023 AND BEYOND</h1>
+            <div class="event__text event__text-beyond">
+              <h1 class="event_date">2023 AND BEYOND</h1>
               <img
                 class="coming-up__vector-img"
                 src="@/assets/Vector.png"
                 alt="vector"
               />
-              <p class="coming-up-text-description">
+              <p class="event__title">
                 Join us on a road to Metaverse
               </p>
-              <p class="coming-up-text-paragraph coming-up-text-paragraph--beyond">
+              <p class=" event__description  event__description--beyond">
                 More series of NFT drops designed by luxury and street style
                 fashion brands, musicians and artists will follow + GemBox
                 platform will get full market capabilities and DAO feature as we
@@ -108,17 +103,17 @@
               />
         </div>
         <!-- events right side -->
-        <div class="coming-up__events-right-side">
-          <div class="coming-up__events coming-up__noonoouri-nft-drop">
-            <div class="coming-up__text-container coming-up__text-container--midjune">
-              <h1 class="coming-up-text-title ">MID JUNE 2022</h1>
+        <div class="events-right-side">
+          <div class="event event__midjune">
+            <div class="event__text event__text-midjune">
+              <h1 class="event_date ">MID JUNE 2022</h1>
               <img
                 class="coming-up__vector-img"
                 src="@/assets/Vector.png"
                 alt="vector"
               />
-              <p class="coming-up-text-description coming-up-text-description--midjune">Noonoouri NFT drop</p>
-              <p class="coming-up-text-paragraph coming-up-text-paragraph--midjune">
+              <p class="event__title event__title--midjune">Noonoouri NFT drop</p>
+              <p class="event__description event__description--midjune">
                 Merely the first in our series of fashion NFT projects,
                 noonoouri is the first virtual supermodel whose Insta feed was
                 graced by Dior, Valentino, H&M, Versace, KKW Beauty, Marc
@@ -127,7 +122,7 @@
                 value and our Premium holders get it as a gift.
               </p>
             </div>
-            <div class="coming-up__video-box coming-up__video-box-2">
+            <div class="event__video-box coming-up__video-box-2">
               <video class="video coming-up__video-midjune" loop autoplay preload  muted playsinline>
                 <source
                   src="@/assets/video/noonoouri_02.mp4"
@@ -136,24 +131,24 @@
               </video>
             </div>
           </div>
-          <div class="coming-up__events coming-up__series-nft-drops">
-            <div class="coming-up__text-container coming-up__text-container--q3">
-              <h1 class="coming-up-text-title ">Q3 & Q4 2022</h1>
+          <div class="event event__q3q4">
+            <div class="event__text event__text-q3">
+              <h1 class="event_date ">Q3 & Q4 2022</h1>
               <img
                 class="coming-up__vector-img"
                 src="@/assets/Vector.png"
                 alt="vector"
               />
-              <p class="coming-up-text-description">A series of NFT drops</p>
-              <p class="coming-up-text-paragraph">
+              <p class="event__title">A series of NFT drops</p>
+              <p class="event__description">
                 Designed by luxury and streetstyle fashion brands, musicians and
                 artists - you'll have to follow us for the announcement, since
                 it is all NDA just yet but we can promise it will turn your
                 hands diamond.
               </p>
             </div>
-            <div class="coming-up__video-box coming-up__video-box-4">
-              <video class="video coming-up__video-4-q3" loop autoplay preload  muted playsinline>
+            <div class="event__video-box event__video-box-4">
+              <video class="video video_video-q3q4" loop autoplay preload  muted playsinline>
                 <source src="@/assets/video/dbsb.mp4" type="video/mp4" />
               </video>
             </div>
@@ -177,8 +172,6 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-
 }
 .container {
   margin-bottom: 10rem;
@@ -195,15 +188,10 @@ export default {
   font-family: "Bebas Neue";
   margin-bottom: -1.5rem;
   margin-left: 0.5rem;
-  // @media (max-width: 600px) {
-  //   font-size: 5rem;
-  //   margin-bottom: -1rem;
-  // }
+
 }
 .title-img {
   margin-left: -14.5rem;
- 
-
   
 }
 
@@ -211,14 +199,12 @@ export default {
   width: 4rem;
   margin-bottom: 1rem;
   @media (max-width: 1024px) {
-    // margin-bottom: 5rem;
     width: 5rem;
   }
 }
 
-.coming-up__events-container {
+.events {
   margin-top: 17.8rem;
-  display: grid;
   display: flex;
   justify-content: center;
   padding: 10px;
@@ -226,18 +212,15 @@ export default {
   margin-right: 4.4rem;
   @media (max-width: 1024px) {
     flex-direction: column;
-    align-items: center;
-    margin-right: 0rem;
-    margin-top: 5rem;
+    align-items: flex-start;
+    margin: 0 2rem 0 2rem;
+    margin-top: 0rem;
+    padding: 0;
 
   }
-    @media (max-width: 1024px) {
-    margin: 0 auto;
-  }
-
 }
 
-.coming-up__events {
+.event {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -246,16 +229,17 @@ export default {
   background: transparent;
   @media (max-width: 1024px) {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
   }
 
   
 }
-.coming-up__series-nft-drops{
+.event__q3q4{
   margin-top: 22rem;
   margin-left: -3.9rem;
     @media (max-width: 1024px) {
-    margin-top: 5rem;
+    margin: auto;
+    // margin-top: 5rem;
   }
 
 }
@@ -264,9 +248,17 @@ video {
   height: 14rem;
   margin: 2rem;
 }
+.event__video-box{
+  align-self: center;
 
+  
+   @media (max-width: 1024px) {
+    margin-bottom: 3rem;
+  }
 
-.coming-up__video-1 {
+}
+
+.video__video-june7th {
    transform: rotate(-25deg);
    @media (max-width:1920px) {
     position: relative;
@@ -305,7 +297,7 @@ video {
     position: static;
   }
 }
-.coming-up__video-4-q3{
+.video_video-q3q4{
    transform: rotate(-25deg);
    @media (max-width:1920px) {
     position: relative;
@@ -322,9 +314,11 @@ video {
     order: -1;
   }
 }
-.coming-up__video-box-4{
+.event__video-box-4{
    @media (max-width:1024px) {
     order: -1;
+
+
   }
 
 }
@@ -335,13 +329,13 @@ video {
     top: -30rem;
     left: 0rem;
   }
-   @media (max-width:1024zpx) {
+   @media (max-width:1024px) {
     position: static;
   }
 }
 
 
-.coming-up-text-title {
+.event_date {
   font-family: "Bebas Neue";
   font-weight: 400;
   font-size: 5.34rem;
@@ -351,12 +345,12 @@ video {
   width: 100%;
     @media (max-width: 1024px) {
     margin: 0 auto;
-    line-height: 5rem;;
+    line-height: 5rem;
 
   }
 }
 
-.coming-up-text-description {
+.event__title {
   font-size: 1.1rem;
   line-height: 1.5rem;
   margin-bottom: 2rem;
@@ -366,32 +360,39 @@ video {
     margin: 0 auto 2rem auto;
   }
 }
-.coming-up-text-description--midjune{
+.event__title--midjune{
   position: relative;
   top: 1rem;
 }
 
-.coming-up-text-paragraph {
+.event__description {
   padding-top: 0.5rem;
   width: 24.5rem;
   font-size: 1.747rem;
   white-space: pre-line;
   line-height: 2.038rem;
+  @media (max-width: 1024px) {
+    width: 100%;
+  }
+
   
 
   
 }
-.coming-up-text-paragraph--midjune{
+.event__description--midjune{
   position: relative;
   top: 0.5rem;
    @media (max-width: 1024px) {
     position: static;
   }
 }
-.coming-up-text-paragraph--beyond{
+.event__description--beyond{
   width: 100%;
-  margin-top: 2.5rem;
   max-width: 30rem;
+  margin-top: 2.5rem;
+   @media (max-width: 1024px) {
+     max-width: 100%;
+  }
  
 }
 .vertical-line{
@@ -414,52 +415,36 @@ video {
     display: none;
   }
 }
-.event-tile-box {
+.event_date-box {
   display: flex;
 }
 
-.coming-up__events-right-side{
+.events-right-side{
   position: relative;
   left: 5.2rem;
   margin-top: 23rem;
    @media (max-width: 1024px) {
-     position: static;
+    position: static;
     margin-top: 5rem;
-    margin: 0 auto;
-  }
+    }
 }
-.coming-up__text-container--june7th{
-  @media (max-width: 1024px) {
-    margin-top: 5rem;
-  }
-}
-.coming-up__text-container-latejune{
-  // position: relative;
-  // top: 10rem;
+
+.event__text-latejune{
   margin-top: 26.5rem;
   margin-right: 4.2rem;
   margin-left: 1rem;
   @media (max-width: 1024px) {
-    margin: 5rem auto;
+    margin: 0;
   }
 }
-.coming-up__text-container--beyond{
+.event__text-beyond{
    margin-top: 32rem;
    margin-left: -5rem;
     @media (max-width: 1024px) {
-    margin: 5rem auto;
+     margin: 0;
   }
 }
-.coming-up__text-container--midjune{
-   @media (max-width: 1024px) {
-    margin: 5rem auto;
-  }
-}
-.coming-up__text-container--q3{
-  @media (max-width: 1024px) {
-    margin: 6rem auto;
-  }
-}
+
 .vertical{
     padding-top: 5rem;
     @media (max-width: 1024px) {

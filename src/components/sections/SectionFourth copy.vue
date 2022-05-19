@@ -8,6 +8,7 @@
           {{ displayHours }} :
           {{ displayMinutes }} :
           {{ displaySeconds }}
+
         </div>
         <div class="days">
           <div>
@@ -33,7 +34,7 @@
 
 <script>
 export default {
-  name: "section-fourth", 
+  name: "section-fourth",
   data() {
     return {
       displayDays: 0,
@@ -54,13 +55,19 @@ export default {
       return this._hours * 24
     }
   },
- mounted(){
-  
+  mounted: {
+    function(){
       this.showRemaining();
       console.log("qerq");
 
+    }
+      
   },
   methods: {
+    formatNum(num) {
+      return num < 10 ? "0" + num : num;
+
+    },
     showRemaining(){
       const timer = setInterval(() => {
         const now = new Date();
@@ -113,8 +120,7 @@ export default {
   font-family: "Bebas Neue";
   font-size: 10.256rem;
    @media (max-width: 600px) {
-    font-size: 6.5rem;
-    text-align: center;
+    font-size: 8rem;
   }
 }
 .date{
@@ -151,7 +157,7 @@ export default {
   font-size: 2rem;
   padding-left: 1.2rem;
   @media (max-width: 600px) {
-    width: 30rem;
+    width: 35rem;
   }
 }
 .button{
@@ -172,7 +178,6 @@ export default {
   @media (max-width: 600px) {
     width: 35rem;
       font-size: 1.5rem;
-      width: 30rem;
 
 
   }

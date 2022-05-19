@@ -90,7 +90,7 @@ export default {
   mounted() {
     this.play();
   },
-  methods: {
+  methods: { 
     data() {
       return {
         mute: true

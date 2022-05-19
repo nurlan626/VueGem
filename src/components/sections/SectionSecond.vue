@@ -162,6 +162,8 @@ export default {
   @media (max-width:600px) {
     max-width: 250px;
     max-height: 250px;
+    position: relative;
+    left: -5rem;
   }
 }
 .video{
