@@ -199,13 +199,17 @@ export default {
   width: 100%;
   max-width: 50rem;
   transform: rotate(25deg);
-  @media (max-width: 1920px) {
+  @media (max-width: 2500px) {
     position: relative;
-    top: -30rem;
-    right: 13rem;
+    top: -35rem;
+    right: 20rem;
   }
    @media (max-width: 1435px) {
     max-width: 40rem;
+  }
+  @media (max-width: 1200px) {
+     top: -35rem;
+    right: 10rem;
   }
 
   @media (max-width: 1024px) {
