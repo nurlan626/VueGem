@@ -96,6 +96,7 @@ export default {
 }
 .icon{
   width: 3.3rem;
+  height: 3.3rem;
   position: relative;
   top: -0.5rem;
 }

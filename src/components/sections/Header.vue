@@ -10,7 +10,7 @@
         <div class="header__logo-text">GemBox</div>
       </div>
       <div class="header__links">
-        <div class="header__links-text">Join Community 22:10 </div>
+        <div class="header__links-text">Join Community </div>
         <div class="header__links-icons">
             <img class="header__links-icon header__links-icon-discord" src="@/assets/header/discord-logo.png" alt="header__links-icon-discord" />
             <img class="header__links-icon" src="@/assets/header/twiter-logo.png" alt="header__links-icon-twitter" />
@@ -60,6 +60,7 @@ export default {
     gap: 3rem;
     font-family: "Aventa";
     font-size: 1.3rem;
+    
     @media (max-width: 600px) {
        gap: 1rem;
        margin-left: 1rem;

@@ -124,7 +124,8 @@ export default {
   line-height: 9rem;
   color: #48f08c;
   @media (max-width: 600px) {
-    font-size: 8rem;
+    font-size: 6rem;
+    text-align: center;
   }
 
 }
@@ -136,11 +137,19 @@ export default {
   width: 100%;
   justify-content: space-between;
   color: #48f08c;
+   @media (max-width: 600px) {
+     justify-content: space-around;
+    font-size: 1.6rem;
+    text-align: center;
+  }
   
 
 }
 .days__hours{
   margin-left: 3.5rem;
+  @media (max-width: 600px) {
+    margin-left: 1.6rem;
+  }
 }
 .input{
   margin-top: 3rem;

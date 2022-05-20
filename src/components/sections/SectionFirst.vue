@@ -226,8 +226,9 @@ export default {
   @media (max-width: 480px) {
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     margin-top: 2rem;
-    gap: 4rem;
+    gap: 7rem;
   }
 }
 .content__links-button {
@@ -248,6 +249,8 @@ export default {
   gap: 1.3rem;
   width: 100%;
   max-width: 15rem;
+ 
+
 }
 .content__links-social-title {
   font-family: "Aventa";
