@@ -237,6 +237,9 @@ export default {
   color: white;
   position: relative;
   top: 1rem;
+  @media (max-width: 600px) {
+    font-size: 1.5rem;
+  }
 }
 .content__links-social {
   display: flex;
@@ -283,6 +286,9 @@ export default {
     margin-top: 20rem;
     position: static;
   }
+  @media (max-width: 480px) {
+    margin-top: 10rem;
+  }
 }
 .ready-for {
   color: #7239fa;
@@ -294,6 +300,9 @@ export default {
   @media (max-width: 600px) {
     font-size: 6rem;
   }
+  @media (max-width: 480px) {
+    font-size: 4rem;
+  }
 }
 .membership-nft__span {
   color: #48f08c;
@@ -303,6 +312,9 @@ export default {
   margin-top: 2rem;
   @media (max-width: 600px) {
     font-size: 1.5;
+  }
+  @media (max-width: 480px) {
+    font-size: 1.3rem;
   }
 }
 </style>

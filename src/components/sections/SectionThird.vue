@@ -73,6 +73,7 @@ export default {
   }
 }
 .right {
+  padding: 2rem;
   @media (max-width: 1920px) { 
     position: relative;
     left: -7rem;
@@ -86,6 +87,7 @@ export default {
   @media (max-width: 600px) {
     justify-content: center;
     padding: 2rem;
+    text-align: right;
   }
   @media (max-width: 399px) {
     justify-content: center;
@@ -98,6 +100,9 @@ export default {
   @media (max-width: 600px) {
     font-size: 15rem;
   }
+   @media (max-width: 480px) {
+    font-size: 15rem;
+  }
 }
 .right__title-base {
   font-size: 13rem;
@@ -107,13 +112,18 @@ export default {
   margin-top: 0.2rem;
   color:#48f08c;
   @media (max-width: 600px) {
-    font-size: 8rem;
+    font-size: 6rem;
   }
 }
 .right__title {
   margin-left: 3.9rem;
   margin-top: 4.5rem;
   font-family: "Aventa";
+  @media (max-width: 600px) {
+    margin-left: 5rem;
+    margin-top: 0rem;
+  }
+
 }
 .right__title-membership {
   font-size: 3.3rem;
@@ -123,6 +133,9 @@ export default {
   @media (max-width: 600px) {
     font-size: 2.5rem;
   }
+  @media (max-width: 480px) {
+    font-size: 1.5rem;
+  }
 }
 .right__title-eth {
   font-size: 1.75rem;
@@ -130,6 +143,10 @@ export default {
   margin-top: 0.3rem;
   padding-right: 0rem;
   color:#48f08c;
+  @media (max-width: 480px) {
+    font-size: 1.5rem;
+  }
+
 }
 
 .right__text {
@@ -137,6 +154,12 @@ export default {
    @media (max-width: 600px) {
     padding: 2rem;
   }
+    @media (max-width: 480px) {
+    padding: 0rem;
+    margin-left: 0rem;
+
+  }
+
 }
 .right__text1 {
   font-size: 3.179rem;
@@ -156,6 +179,11 @@ export default {
     line-height: 2.5rem;
     padding-right: 1rem;
   }
+  @media (max-width: 480px) {
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+
+  }
 }
 .right__text2 {
   font-size: 2rem;
@@ -173,6 +201,9 @@ export default {
   color: #48f08c;
   margin-top: 4.5rem;
   font-size: 2.163rem;
+  @media (max-width: 600px) {
+    margin-top: 2rem;
+  }
 }
 .right__text2-title--margin27{
   margin-top: 2.7rem;
@@ -187,6 +218,9 @@ export default {
   max-width: 58.4rem;
   @media (max-width: 600px) {
     padding: 0rem;
+  }
+  @media (max-width: 480px) {
+    font-size: 1.3rem;
   }
 }
 .right__text2-text--margin{

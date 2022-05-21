@@ -225,6 +225,9 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+   @media (max-width: 600px) {
+    margin-top: 14rem;
+  }
 }
 .container {
   margin-bottom: 10rem;
@@ -411,10 +414,12 @@ video {
      @media (max-width: 600px) {
     font-size: 4rem;;
   }
+     @media (max-width: 480px) {
+    font-size: 3rem;;
+  }
 }
 
 .event__title {
-  font-size: 1.1rem;
   line-height: 1.5rem;
   margin-bottom: 2rem;
   font-family: "Aventa";
@@ -422,6 +427,10 @@ video {
     @media (max-width: 1024px) {
     margin: 0 auto 2rem auto;
   }
+    @media (max-width: 1024px) {
+      font-size: 1.5rem;
+  }
+
 }
 .event__title--midjune{
   position: relative;
@@ -436,6 +445,9 @@ video {
   line-height: 2.038rem;
   @media (max-width: 1024px) {
     width: 100%;
+  }
+  @media (max-width: 480px) {
+    font-size: 1.3rem;
   }
 
   
@@ -519,6 +531,10 @@ video {
 }
 .event__description--beyondSubtitle{
   font-size: 1.941rem;
+    @media (max-width: 1024px) {
+    font-size: 1.3rem;
+  }
+
 }
 .event__title--beyond{
   margin-top: 2rem;

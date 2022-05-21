@@ -67,6 +67,9 @@ export default {
    @media (max-width:600px) {
     margin-top: 7rem;
     padding: 0 0rem 0 5rem;
+  }
+   @media (max-width:480px) {
+    margin-top: 0rem;
 
   }
   
@@ -101,6 +104,9 @@ export default {
   @media (max-width:600px) {
     font-size: 13rem;
   }
+  @media (max-width:480px) {
+    font-size: 10rem;
+  }
 
   
 }
@@ -117,6 +123,9 @@ export default {
     }
     @media (max-width:600px) {
       margin-left: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
     }
 }
 .left__title-base{
@@ -137,6 +146,10 @@ export default {
   margin-left: 0.5rem;
   @media (max-width:600px) {
     font-size: 2rem;
+  }
+  @media (max-width:480px) {
+    margin-left: 0;
+    font-size: 1.3rem;
   }
 }
 .left__title-eth{
@@ -181,6 +194,10 @@ export default {
     position: relative;
     left: -5rem;
   }
+   @media (max-width:480px) {
+    position: relative;
+    left: -2.5rem;
+  }
 }
 .video{
   width: 100%; 
@@ -199,9 +216,14 @@ export default {
   @media (max-width:600px) {
     font-size: 2rem;
     line-height: 2.5rem;
-    
     width: 100%;
     padding-right: 2rem;
+  }
+  @media (max-width:600px) {
+    font-size: 1.5rem;
+  }
+   @media (max-width:480px) {
+    font-size: 1.3rem;
   }
 }
 .left__text2{
@@ -217,7 +239,7 @@ export default {
     padding-right: 3rem; 
   }
   @media (max-width:600px) {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 2rem;
     margin-right: 1rem;
     padding-right: 3rem; 

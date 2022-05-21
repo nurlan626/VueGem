@@ -26,9 +26,7 @@ export default {
         margin-top: 10rem;
     }
 }
-.title-box{
-    
-}
+
 .title{
     font-size: 5.575rem;
     font-family: "Bebas Neue";
@@ -38,14 +36,23 @@ export default {
         font-size: 4rem;
         margin-bottom: -1rem;
     }
+      @media (max-width: 480px) {
+        font-size: 3rem;
+        margin: 0;
+      }
 }
 .title-img{
-        margin-top: 1rem;
+    margin-top: 1rem;
    margin-left: 0.5rem;
    height: 0.6rem;
    width: 12rem;
    @media (max-width: 600px) {
         margin-top: 0rem;
+    }
+    @media (max-width: 480px) {
+        position: relative;
+        margin:0;
+        top: -4rem;
     }
 }
 .partners{

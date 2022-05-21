@@ -38,6 +38,9 @@ export default {
    @media (max-width: 600px) {
      font-size: 5rem;
   }
+   @media (max-width: 480px) {
+     font-size: 3rem;
+  }
 }
 .subtitle{
   margin-top: -0.5rem;
@@ -46,7 +49,11 @@ export default {
   font-size: 2.38rem;
   color: #48f08c;
   @media (max-width: 600px) {
+    margin-top: 2rem;
     font-size: 2rem;
+  }
+  @media (max-width: 480px) {
+    font-size: 1.5rem;
   }
 
 }
@@ -68,8 +75,8 @@ export default {
   max-width: 58.6rem;
   margin-left: 2.2rem;
 
-  @media (max-width: 600px) {
-   
+  @media (max-width: 480px) {
+   font-size: 1.3rem;
   }
 }
 </style>

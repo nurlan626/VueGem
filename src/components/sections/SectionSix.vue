@@ -35,7 +35,7 @@
             <img class="founder-vector" src="@/assets/Vector.png" alt="vector">
           </div>
           <div class="founder-position">CTO</div>
-          <div class="founder-description founder-description--width">With a quarter of a century of experience in IT, Kanan is our tech leader taking care of software development/implementation, infrastructure and adding features to our advanced NFT ecosystem to deliver the best experience for content creators and collectors.
+          <div class="founder-description founder-description--width">With a quarter of a century of experience in IT, Kanan is our tech leader taking care of software development/ implementation, infrastructure and adding features to our advanced NFT ecosystem to deliver the best experience for content creators and collectors.
           </div>
         </div>
         <div class="item">
@@ -88,9 +88,14 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media (max-width: 600px) {
+      margin-top: 5rem;
+    }
+    @media (max-width: 480px) {
+      margin-top: 0rem;
+    }
 }
-.title-box{
-}
+
 .title{
     font-size: 6.1rem;
     font-family: "Bebas Neue";
@@ -123,6 +128,11 @@ export default {
   @media (max-width: 1024px) {
       padding: 3rem;
       margin-top: 3rem;
+    }
+     @media (max-width: 480px) {
+      font-size: 1.3rem;
+      margin-top: 0rem;
+
     }
 }
 .founders{
@@ -192,7 +202,9 @@ export default {
   }
   @media (max-width: 600px) {
     font-size: 1.2rem;
-    
+  }
+  @media (max-width: 480px) {
+    width: 20rem;
   }
 }
 .u{
