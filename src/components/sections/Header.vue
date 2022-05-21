@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <div class="header__inner">
-      <a class="header__logo-a" href="https://gembox.world/">
+      <router-link to="/" class="header__logo-a" >
         <div class="header__logo">
           <img
             class="header__logo-image"
@@ -10,7 +10,7 @@
           />
           <div class="header__logo-text">GemBox</div>
         </div>
-      </a>
+      </router-link>
       <div class="header__links">
         <div class="header__links-text">Join Community</div>
         <div class="header__links-icons">

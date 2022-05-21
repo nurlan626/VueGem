@@ -294,9 +294,10 @@ export default {
   @media (max-width: 1024px) {
     flex-direction: column;
     align-items: flex-start;
+  }  
+   @media (max-width: 480px) {
+    padding-top: 1rem;
   }
-
-  
 }
 .event__q3q4{
   margin-top: 22rem;

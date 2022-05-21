@@ -13,7 +13,8 @@
       </div>
     </div>
     <div class="right">
-      <div class="privacy">Privacy policy</div>
+      
+      <div class="privacy"> <router-link to="/" class="privacy-link"> Privacy policy </router-link> </div>
       <div>
         <div class="join">Join our community</div>
         <div class="icons">
@@ -103,5 +104,9 @@ export default {
 .join{
   margin-bottom: 2rem;
   font-size: 1.118rem;
+}
+.privacy-link{
+  text-decoration: none;
+  color: white;
 }
 </style>
