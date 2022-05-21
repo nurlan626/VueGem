@@ -83,7 +83,7 @@ export default {
   }
 }
 .right {
-  @media (max-width: 1920px) {
+  @media (max-width: 1920px) { 
     position: relative;
     left: -7rem;
   }
@@ -96,6 +96,10 @@ export default {
   @media (max-width: 600px) {
     justify-content: center;
     padding: 2rem;
+  }
+  @media (max-width: 399px) {
+    justify-content: center;
+    padding: 0rem;
   }
 }
 .right__50 {

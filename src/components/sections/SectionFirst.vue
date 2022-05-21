@@ -1,11 +1,11 @@
 <template>
   <section class="SectionFirst">
-    <!-- <audio  preload autoplay id="audio" >
+    <audio  preload autoplay id="audio" >
       <source 
       src="@/assets/music/music.wav" 
       type="audio/wav" 
       />   
-    </audio> -->
+    </audio>
     <div class="sound">
       <img 
         class="sound-img" 

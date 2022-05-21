@@ -39,6 +39,9 @@ export default {
      @media (max-width: 600px) {
       padding: 1.4rem 2.5rem 1rem 2.5rem;
     }
+     @media (max-width: 400px) {
+       padding: 1.4rem 2rem 1rem 2rem;
+    }
 }
 .header__logo {
     display: flex;
@@ -57,12 +60,12 @@ export default {
 .header__links {
     display: flex;
     align-items: center;
-    gap: 3rem;
+    // gap: 3rem;
     font-family: "Aventa";
     font-size: 1.3rem;
     
     @media (max-width: 600px) {
-       gap: 1rem;
+      //  gap: 1rem;
        margin-left: 1rem;
        font-size: 1rem;
        
@@ -71,23 +74,31 @@ export default {
 }
 .header__links-icons{
     display: flex;
-    gap: 2.3rem;
+    // gap: 2.3rem;
     @media (max-width: 600px) {
-     gap: 1rem;
+    //  gap: 1rem;
 
     }
 
 }
 .header__links-icon{
+    margin-left: 2.3rem;
     width: 2.4rem;
     height: 2.4rem;
     @media (max-width: 600px) {
       height: 2rem;
       width: 2rem;
     }
+     @media (max-width: 400px) {
+     margin-left: 1.5rem;
+    }
 }
 .header__links-icon-discord{
   //  width: 2.8rem;
+   margin-left: 3.5rem;
+   @media (max-width: 400px) {
+     margin-left: 1.5rem;
+    }
 }
 
 </style>
