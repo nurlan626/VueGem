@@ -487,7 +487,7 @@
         reserves the right to change this Privacy Policy at any time.
       </div>
 
-      <div class="title">Cookies Policy</div>
+      <div class="title">5. Cookies Policy</div>
 
       <div class="subtitle">What is a cookie?</div>
       <div class="description">
@@ -579,7 +579,7 @@
         any changes via e-mail.
       </div>
 
-      <div class="title">DATA COLLECTION STATEMENTS</div>
+      <div class="title">6. DATA COLLECTION STATEMENTS</div>
       <div class="subtitle">Pre-registration form:</div>
       <div class="description">
         Under the button « Pre-register », the following message should be
@@ -628,9 +628,16 @@ export default {
   max-width: 150rem;
   height: 100%;
   padding: 2.5rem;
+  margin-top: 10rem;
+  
 }
 .page-title {
   font-size: 5rem;
+  text-align: center;
+  margin-bottom: 5rem;
+  @media (max-width: 480px) {
+    font-size: 4rem;
+  }
 }
 .title {
   font-size: 3rem;
