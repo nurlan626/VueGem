@@ -17,7 +17,10 @@
               <!-- <video class="video video__video-june7th" loop autoplay preload  muted playsinline>
                 <source src="@/assets/video/kawai.mp4" type="video/mp4" />
               </video> -->
-                <video class="video video__video-june7th" autoplay loop preload  muted playsinline>
+                <video class="video video__video-june7th" 
+                  autoplay loop preload  muted playsinline
+                  poster="@/assets/video/posters/june7.png"
+                >
                   <source src="https://drive.google.com/uc?export=download&id=1cUXdAcedQ9RWn1t25cYsDILjc9U1X78L" type="video/mp4" />
                 </video>
             </div>
@@ -27,7 +30,7 @@
               </div>
               <img
                 class="coming-up__vector-img"
-                src="@/assets/Vector.png"
+                src="@/assets/Vector.png" 
                 alt="vector"
               />
               <p class="event__title ">Launch Edition NFT drop</p>
@@ -48,7 +51,10 @@
                   type="video/mp4"
                 />
               </video> -->
-              <video class="video coming-up__video-3"  autoplay loop preload  muted playsinline>
+              <video class="video coming-up__video-3"  
+                autoplay loop preload  muted playsinline
+                poster="@/assets/video/posters/lateJune.png"
+                >
                 <source
                   src="https://drive.google.com/uc?export=download&id=1bo4FHHMFzsbQlZdr0VYmtiFNuRaCHmet"
                   type="video/mp4"
@@ -81,7 +87,10 @@
                   type="video/mp4"
                 />
               </video> -->
-               <video class="video coming-up-video-2023"  autoplay loop preload  muted playsinline>
+               <video class="video coming-up-video-2023"  
+                autoplay loop preload  muted playsinline
+                poster="@/assets/video/posters/2023end.png"
+               >
                 <source
                   src="https://drive.google.com/uc?export=download&id=17NpEQPmESP4r9oemCS3rR3QJ-t0lzrVQ"
                   type="video/mp4"
@@ -144,7 +153,10 @@
                   type="video/mp4"
                 />
               </video> -->
-              <video class="video coming-up__video-midjune"  autoplay loop preload  muted playsinline>
+              <video class="video coming-up__video-midjune"  
+                autoplay loop preload  muted playsinline
+                poster="@/assets/video/posters/midjune.png"
+              >
                 <source
                   src="https://drive.google.com/uc?export=download&id=1qVKsemc515stou6ESvUKWrcAFhg59dIL"
                   type="video/mp4"
@@ -172,7 +184,10 @@
               <!-- <video class="video video_video-q3q4" loop autoplay preload  muted playsinline>
                 <source src="@/assets/video/dbsb.mp4" type="video/mp4" />
               </video> -->
-              <video class="video video_video-q3q4"  autoplay loop preload  muted playsinline>
+              <video class="video video_video-q3q4"  
+                autoplay loop preload  muted playsinline
+                poster="@/assets/video/posters/q3.png"
+              >
                 <source
                   src="https://drive.google.com/uc?export=download&id=1cEG3zsw2QGZr7uDH3cx22H1K8z92JjI-"
                   type="video/mp4"

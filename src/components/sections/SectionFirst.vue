@@ -1,6 +1,6 @@
 <template>
   <section class="SectionFirst">
-    <audio  preload autoplay id="audio" >
+    <audio  v-if="!mute" preload autoplay loop id="audio"> 
       <source 
       src="@/assets/music/music.wav" 
       type="audio/wav" 
@@ -10,15 +10,15 @@
       <img 
         class="sound-img" 
         src="@/assets/sound1.svg" 
-        alt="artifact-logo" 
+        alt="artifact-logo"  
         @click="play"
       />
-      <img 
+      <!-- <img 
           class="sound-img" 
           src="@/assets/sound2.svg" 
           alt="artifact-logo" 
           @click="stop"
-      />
+      /> -->
     </div>
     <div class="title2">
       <img 
@@ -42,7 +42,7 @@
         </div>
         <div class="content__links">
           <button class="content__links-button">Join the movement</button>
-          <div class="content__links-social">
+          <!-- <div class="content__links-social">
             <div class="content__links-social-title">Follow Us</div>
             <div class="content__links-social-icon-box">
               <img
@@ -56,7 +56,7 @@
                 alt="content_link-icon"
               />
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
       <div class="video-box">
@@ -96,24 +96,20 @@ export default {
   methods: { 
     data() {
       return {
-        mute: true
+        mute: false 
       }
-
     },
     play() {
       let audio = document.getElementById("audio");
-      audio.volume = 0.08;
-      audio.play();
-      this.mute = !this.mute; 
-    },
-    stop(){
-       let audio = document.getElementById("audio");
-      if (!this.mute){
+      audio.volume = 0.2;
+      if(this.mute){
+        audio.play();
+      } else {
         audio.pause(); 
-        this.mute = !this.mute;
-      }
+      } 
+      this.mute = !this.mute;
 
-    }
+    },
   }
 };
 </script>
@@ -146,7 +142,6 @@ export default {
   &:hover{
       border: 2px solid grey;
   }
-
 }
 .title2 {
   display: flex;
@@ -192,7 +187,7 @@ export default {
     padding-top: 7rem;
   }
   @media (max-width: 600px) {
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 3.5rem;
     padding-top: 6rem;
   }
@@ -212,7 +207,7 @@ export default {
   }
   @media (max-width: 600px) {
     padding-top: 3rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 }
 .content__text-span {
