@@ -21,7 +21,7 @@
                   autoplay loop preload  muted playsinline
                   poster="@/assets/video/posters/june7.png"
                 >
-                  <source src="https://drive.google.com/uc?export=download&id=1cUXdAcedQ9RWn1t25cYsDILjc9U1X78L" type="video/mp4" />
+                  <source src="https://drive.google.com/uc?export=download&id=1QXgmii5yVWrKgf-TMavrCk9Y7OtghUMb" type="video/mp4" />
                 </video>
             </div>
             <div class="event__text event__text-june7th">
@@ -56,7 +56,7 @@
                 poster="@/assets/video/posters/lateJune.png"
                 >
                 <source
-                  src="https://drive.google.com/uc?export=download&id=1bo4FHHMFzsbQlZdr0VYmtiFNuRaCHmet"
+                  src="https://drive.google.com/uc?export=download&id=1DyO8sMrdNGdLaEMhG_qB4viCBCg-1-0d"
                   type="video/mp4"
                 />
               </video>
@@ -92,7 +92,7 @@
                 poster="@/assets/video/posters/2023end.png"
                >
                 <source
-                  src="https://drive.google.com/uc?export=download&id=17NpEQPmESP4r9oemCS3rR3QJ-t0lzrVQ"
+                  src="https://drive.google.com/uc?export=download&id=1JSgo9edqanAqW999J3QQVuL8IlRuEaNQ"
                   type="video/mp4"
                 />
               </video>
@@ -168,7 +168,7 @@
                 poster="@/assets/video/posters/midjune.png"
               >
                 <source
-                  src="https://drive.google.com/uc?export=download&id=1qVKsemc515stou6ESvUKWrcAFhg59dIL"
+                  src="https://drive.google.com/uc?export=download&id=1DTqkTzdnI3K265iOBtJz2CIAdbMLinsg"
                   type="video/mp4"
                 />
               </video>
@@ -205,7 +205,7 @@
                 poster="@/assets/video/posters/q3.png"
               >
                 <source
-                  src="https://drive.google.com/uc?export=download&id=1cEG3zsw2QGZr7uDH3cx22H1K8z92JjI-"
+                  src="https://drive.google.com/uc?export=download&id=1MKxveQ0acg_TYfNRo7dxKX7IzPdrHVGV"
                   type="video/mp4"
                 />
               </video>

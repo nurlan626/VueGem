@@ -33,7 +33,10 @@
       </div>
       <div class="right-video">
         <video class="video" autoplay loop preload  muted playsinline>
-          <source src="@/assets/video/metalna_final.mp4" type="video/mp4">
+          <source 
+            src="https://drive.google.com/uc?export=download&id=1-SKkq6GLCPXc3MeSvsWED12GK6NkR_Tp"
+            type="video/mp4"
+          >
         </video>
         <!-- <video class="video" autoplay loop preload  muted playsinline>
           <source src="https://drive.google.com/uc?export=download&id=" type="video/mp4" />

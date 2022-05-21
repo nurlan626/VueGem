@@ -101,6 +101,9 @@ export default {
   @media (max-width: 600px) {
     margin-top: 20rem;
   }
+    @media (max-width: 480px) {
+    margin-top: 10rem;
+  }
 }
 .container{
   display: flex;

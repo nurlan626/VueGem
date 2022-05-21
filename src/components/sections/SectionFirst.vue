@@ -64,7 +64,7 @@
           <source src="@/assets/video/kawai.mp4" type="video/mp4" />
         </video> -->
         <video class="video" autoplay loop preload muted playsinline>
-          <source src="https://drive.google.com/uc?export=download&id=1cUXdAcedQ9RWn1t25cYsDILjc9U1X78L" type="video/mp4" />
+          <source src="https://drive.google.com/uc?export=download&id=1ChJjVsgyUlT8GZeVVgbb9TIKIr6CereT" type="video/mp4" />
         </video>
       </div>
     </div>
@@ -218,6 +218,10 @@ export default {
   display: flex;
   gap: 7.7rem;
   padding: 1.5rem 0 2rem 0;
+  @media (max-width: 1024px) {
+    justify-content: center;
+  }
+
   @media (max-width: 480px) {
     flex-direction: column;
     align-items: center;
@@ -239,6 +243,7 @@ export default {
   top: 1rem;
   @media (max-width: 600px) {
     font-size: 1.5rem;
+    margin: 0 auto;
   }
 }
 .content__links-social {
