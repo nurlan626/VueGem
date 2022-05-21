@@ -14,7 +14,20 @@
             Community is all about it’s members. That’s why we made <span class="span">BASE NFT’s </span>as first step in creating a legendary community.
           </div>
           <div class="left__text2">
-            BASE NFT’s are affordable and each is coming with list of utilities like whitelisting for future drops, raffles for exclusive drops or invitations for special physical and metaverse events. No need for a FOMO since you can always upgrade your BASE NFT’s with premium utilities of your choice.
+            <!-- BASE NFT’s are affordable and each is coming with list of utilities like whitelisting for future drops, raffles for exclusive drops or invitations for special physical and metaverse events. No need for a FOMO since you can always upgrade your BASE NFT’s with premium utilities of your choice. -->
+            <p class="left-text2-title">Utilities:</p>
+            <p class="left-text2-text">
+              - whitelisting for future drops, 
+            </p>   
+            <p class="left-text2-text">
+              - raffles for exclusive drops 
+            </p> 
+            <p class="left-text2-text">
+              - invitations for special physical and metaverse events. 
+            </p> 
+            <p class="left-text2-text left-text2-text--marginTop">
+              No need for a FOMO since you can always upgrade your <span class="span">BASE NFT’s</span> with premium utilities of your choice.
+            </p>      
           </div>
         </div>
       </div>
@@ -213,4 +226,15 @@ export default {
 .span{
   color: #49f48e;
 }
+
+.left-text2-title {
+  color: #48f08c;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 2.163rem;
+}
+.left-text2-text--marginTop{
+  margin-top: 2.7rem;
+}
+
 </style>

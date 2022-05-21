@@ -25,31 +25,21 @@
         <div class="right__text2">
           <p class="right__text2-title">DROP utilities:</p>
           <p class="right__text2-text">
-            As an owner, you will get a whitelist or raffle access to the most
-            exclusive NFT drops GemBox will create in collaboration with
-            fashion, sneakers, music, gaming and designers brands Gifts will
-            also be an important part of the DROP utilities, so <span class="span">PREMIUM NFT </span>
-            holders will receive GemBox first official drop by the world most
-            famous virtual supermodel noonoouri who has so far already
-            collaborated with top fashion brands such as Dior, Valentino, H&M,
-            Versace, KKW Beauty, Marc Jacobs, MiuMiu, Alexander McQueen, Puma,
-            etc.
+            - whitelist or raffle access to the most exclusive NFT drops GemBox will create in collaboration with fashion, sneakers, music, gaming and designers brands Gifts will also be an important part of the DROP utilities, 
+          </p>
+          <p class="right__text2-text">
+            - GemBox first official drop by the world most famous virtual supermodel noonoouri who has so far already collaborated with top fashion brands such as Dior, Valentino, H&M, Versace, KKW Beauty, Marc Jacobs, MiuMiu, Alexander McQueen, Puma, etc.
           </p>
           <p class="right__text2-title right__text2-title--margin27">EVENT utilities:</p>
           <p class="right__text2-text">
-            GemBox exists for fresh and hot music events, so we combined a bunch
-            of event-related utilities into one to get you VIP access to the
-            coolest physical and virtual events on the planet. Launch drop
-            includes a VIP ticket and accommodation for 7 days of Fresh Island
-            Festival on beautiful Mediterranean beach of Pag island in Croatia.
+            - GemBox exists for fresh and hot music events, so we combined a bunch of event-related utilities into one to get you VIP access to the coolest physical and virtual events on the planet. 
+          </p>
+          <p class="right__text2-text">
+            - Launch drop includes a VIP ticket and accommodation for 7 days of Fresh Island Festival on the beautiful Mediterranean beach of Pag island in Croatia.
           </p>
           <p class="right__text2-title right__text2-title--margin">POWER utilities:</p>
           <p class="right__text2-text right__text2-text--margin">
-            As an inclusive platform toward a brighter future for creators and
-            collectors, we want to include members in the decision-making,
-            starting with premium holders. Exercise your voting power through a
-            secret discord channel until we introduce a fully tokenized DAO
-            system.
+            - governance rights. Exercise your voting power through a secret discord channel until we introduce a fully tokenized DAO system.
           </p>
         </div>
         <div class="verticalText">

@@ -41,7 +41,7 @@
           community.
         </div>
         <div class="content__links">
-          <button class="content__links-button">Join the movement</button>
+          <button class="content__links-button">join the discord functionality</button>
           <!-- <div class="content__links-social">
             <div class="content__links-social-title">Follow Us</div>
             <div class="content__links-social-icon-box">
@@ -272,7 +272,7 @@ export default {
   font-family: "Aventa";
   width: 100%;
   max-width: 58.3rem;
-  margin: 31.5rem auto 0 auto;
+  margin: 26.5rem auto 0 auto;
   position: relative;
   right: 2.6rem;
   @media (max-width: 1440px) {

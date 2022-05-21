@@ -96,7 +96,7 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 36.45rem;
+  margin-top: 30.1rem;
   margin-right: 1rem;
   @media (max-width: 600px) {
     margin-top: 20rem;

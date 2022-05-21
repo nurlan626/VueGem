@@ -45,24 +45,18 @@
           </div>
           <div class="event">
             <div class="event__video-box event__video-box-latejune">
-              <!-- <video class="video coming-up__video-3" loop autoplay preload>
-                <source
-                  src="@/assets/video/fresh-island-01.mp4"
-                  type="video/mp4"
-                />
-              </video> -->
               <video class="video coming-up__video-3"  
                 autoplay loop preload  muted playsinline
-                poster="@/assets/video/posters/lateJune.png"
+                poster="@/assets/video/posters/midjune.png"
                 >
                 <source
-                  src="https://drive.google.com/uc?export=download&id=1bo4FHHMFzsbQlZdr0VYmtiFNuRaCHmet"
+                  src="https://drive.google.com/uc?export=download&id=1qVKsemc515stou6ESvUKWrcAFhg59dIL"
                   type="video/mp4"
                 />
               </video>
             </div>
             <div class="event__text event__text-latejune">
-                <h1 class="event_date">LATE JUNE 2022</h1>
+                <h1 class="event_date">MID JUNE 2022</h1>
                           
               <img
                 class="coming-up__vector-img"
@@ -70,12 +64,15 @@
                 alt="vector"
               />
               <p class="event__title">
-                First EVENT utility delivered
+                Noonoouri NFT drop
               </p>
               <p class="event__description">
-                Premium NFT holders get 7 days of VIP treatment and
-                accommodation at the Fresh Island Festival on Pag island in
-                Croatia.
+                Merely the first in our series of fashion NFT projects,
+                noonoouri is the first virtual supermodel whose Insta feed was
+                graced by Dior, Valentino, H&M, Versace, KKW Beauty, Marc
+                Jacobs, MiuMiu, Alexander McQueen, Puma. Represented by IMG, the
+                agency working with Bella Hadid, noonoouri NFTs are sure to pack
+                value and our Premium holders get it as a gift.
               </p>
             </div>
           </div>
@@ -89,16 +86,16 @@
               </video> -->
                <video class="video coming-up-video-2023"  
                 autoplay loop preload  muted playsinline
-                poster="@/assets/video/posters/2023end.png"
+                poster="@/assets/video/posters/lateJune.png"
                >
                 <source
-                  src="https://drive.google.com/uc?export=download&id=17NpEQPmESP4r9oemCS3rR3QJ-t0lzrVQ"
+                  src="https://drive.google.com/uc?export=download&id=1bo4FHHMFzsbQlZdr0VYmtiFNuRaCHmet"
                   type="video/mp4"
                 />
               </video>
             </div>
             <div class="event__text event__text-beyond">
-              <h1 class="event_date">2023 AND BEYOND</h1>
+              <h1 class="event_date">LATE JUNE 2022</h1>
               <img
                 class="coming-up__vector-img"
                 src="@/assets/Vector.png"
@@ -108,22 +105,11 @@
                 Join us on a road to Metaverse
               </p> -->
               <p class=" event__description  event__description--beyond event__description--beyondSubtitle">
-                Partners Growth
+                Premium NFT holders get 7 days of VIP treatment and
+                accommodation at the Fresh Island Festival on Pag island in
+                Croatia.
               </p>
-              <p class=" event__description  event__description--beyond">
-                More series of NFT drops designed by luxury and street style fashion brands, musicians and artists will follow 
-              </p>
-              <p class=" event__description  event__description--beyond event__description--beyondSubtitle ">
-                GemBox Metaverse
-              </p>
-              <p class=" event__description  event__description--beyond">
-                GemBox Metaverse events in partnership with leading music festivals and entertainment brands to expand creative capabilities for our members and guest stars.              </p>
-              <p class=" event__description  event__description--beyond event__description--beyondSubtitle">
-                Community Governance
-              </p>
-              <p class=" event__description  event__description--beyond">
-                  GemBox platform will get full market capabilities and governance
-              </p>
+           
             </div>
           </div>
         </div>
@@ -140,21 +126,24 @@
         <div class="events-right-side">
           <div class="event event__midjune">
             <div class="event__text event__text-midjune">
-              <h1 class="event_date ">MID JUNE 2022</h1>
+              <h1 class="event_date ">Q3 & Q4 2022</h1>
               <img
                 class="coming-up__vector-img"
                 src="@/assets/Vector.png"
                 alt="vector"
               />
-              <p class="event__title event__title--midjune">Noonoouri NFT drop</p>
+              <p class="event__title event__title--midjune">A series of NFT drops</p>
               <p class="event__description event__description--midjune">
-                Merely the first in our series of fashion NFT projects,
-                noonoouri is the first virtual supermodel whose Insta feed was
-                graced by Dior, Valentino, H&M, Versace, KKW Beauty, Marc
-                Jacobs, MiuMiu, Alexander McQueen, Puma. Represented by IMG, the
-                agency working with Bella Hadid, noonoouri NFTs are sure to pack
-                value and our Premium holders get it as a gift.
+                Designed by luxury and streetstyle fashion brands, musicians and
+                artists - you'll have to follow us for the announcement, since
+                it is all NDA just yet but we can promise it will turn your
+                hands diamond.
               </p>
+              <p class="event__description event__description--midjune">
+                Platform Development
+                Gembox Marketplace 
+              </p>
+
             </div>
             <div class="event__video-box coming-up__video-box-2">
               <!-- <video class="video coming-up__video-midjune" loop autoplay preload  muted playsinline>
@@ -165,10 +154,10 @@
               </video> -->
               <video class="video coming-up__video-midjune"  
                 autoplay loop preload  muted playsinline
-                poster="@/assets/video/posters/midjune.png"
+                poster="@/assets/video/posters/q3.png"
               >
                 <source
-                  src="https://drive.google.com/uc?export=download&id=1qVKsemc515stou6ESvUKWrcAFhg59dIL"
+                  src="https://drive.google.com/uc?export=download&id=1cEG3zsw2QGZr7uDH3cx22H1K8z92JjI-"
                   type="video/mp4"
                 />
               </video>
@@ -176,25 +165,31 @@
           </div>
           <div class="event event__q3q4">
             <div class="event__text event__text-q3">
-              <h1 class="event_date ">Q3 & Q4 2022</h1>
+              <h1 class="event_date ">2023 AND BEYOND</h1>
               <img
                 class="coming-up__vector-img"
                 src="@/assets/Vector.png"
                 alt="vector"
               />
-              <p class="event__title">A series of NFT drops</p>
+              <p class="event__title event__title--beyond">Partners Growth</p>
               <p class="event__description">
-                Designed by luxury and streetstyle fashion brands, musicians and
-                artists - you'll have to follow us for the announcement, since
-                it is all NDA just yet but we can promise it will turn your
-                hands diamond.
+                More series of NFT drops designed by luxury and street style fashion brands, musicians and artists will follow 
               </p>
-              <p class="event__description event__description--marginTop">
-                Platform Development
+              <p class="event__title event__title--beyond">
+                GemBox Metaverse
               </p>
-              <p class="event__description event__description--marginTop">
-                Gembox Marketplace 
+              <p class="event__description">
+                GemBox Metaverse events in partnership with leading music festivals and entertainment brands to expand creative capabilities for our members and guest stars.              
               </p>
+               <p class="event__title event__title--beyond">
+                Community Governance
+              </p>
+              <p class="event__description">
+                GemBox platform will get full market capabilities and governance              
+              </p>
+
+
+
             </div>
             <div class="event__video-box event__video-box-4">
               <!-- <video class="video video_video-q3q4" loop autoplay preload  muted playsinline>
@@ -524,6 +519,9 @@ video {
 }
 .event__description--beyondSubtitle{
   font-size: 1.941rem;
+}
+.event__title--beyond{
+  margin-top: 2rem;
 }
 
 </style>

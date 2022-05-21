@@ -11,7 +11,7 @@
         <div class="item">
           <img class="founder-img" src="@/assets/founder.png" alt="founder">
           <div>
-            <div class="founder-title">Alexandr Chevtayev</div>
+            <div class="founder-title">Alexandr Chevtaev</div>
             <img class="founder-vector" src="@/assets/Vector.png" alt="vector">
           </div>
           <div class="founder-position">Co-Founder</div>
@@ -31,7 +31,7 @@
         <div class="item">
           <img class="founder-img" src="@/assets/kenan.png" alt="founder">
           <div>
-            <div class="founder-title">Kanan Kerimov</div>
+            <div class="founder-title">Kenan Kerimov</div>
             <img class="founder-vector" src="@/assets/Vector.png" alt="vector">
           </div>
           <div class="founder-position">CTO</div>
@@ -70,7 +70,7 @@
         </div>
       </div>
       <div class="bottom-text">
-        +9 team members from design, marketing and deck development
+        +9 team members from design, marketing and tech development
       </div>
   </section>
 </template>

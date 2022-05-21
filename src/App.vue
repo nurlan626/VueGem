@@ -5,7 +5,7 @@
     <SectionSecond></SectionSecond>
     <SectionThird></SectionThird>
     <SectionFourth></SectionFourth>
-    <SectionFifth></SectionFifth>
+    <SectionFifthBase></SectionFifthBase>
     <SectionSix></SectionSix>
     <SectionSeven></SectionSeven>
     <SectionEight></SectionEight>
@@ -19,7 +19,7 @@ import SectionFirst from '@/components/sections/SectionFirst.vue'
 import SectionSecond from '@/components/sections/SectionSecond.vue'
 import SectionThird from '@/components/sections/SectionThird.vue'
 import SectionFourth from '@/components/sections/SectionFourth.vue'
-import SectionFifth from '@/components/sections/SectionFifth.vue'
+import SectionFifthBase from '@/components/sections/SectionFifthBase.vue'
 import SectionSix from '@/components/sections/SectionSix.vue'
 import SectionSeven from '@/components/sections/SectionSeven.vue'
 import SectionEight from '@/components/sections/SectionEight.vue'
@@ -43,12 +43,11 @@ export default {
     SectionSecond,
     SectionThird,
     SectionFourth,
-    SectionFifth,
+    SectionFifthBase,
     SectionSix,
     SectionSeven,
     SectionEight,
-    Footer
-    
+    Footer 
   }
 }
 </script>
