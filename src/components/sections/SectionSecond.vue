@@ -32,7 +32,10 @@
         </div>
       </div>
       <div class="right-video">
-        <video class="video" autoplay loop preload  muted playsinline>
+        <video class="video" autoplay loop preload  muted playsinline
+           poster="@/assets/video/posters/02.png"
+  
+        >
           <source 
             src="https://drive.google.com/uc?export=download&id=1-SKkq6GLCPXc3MeSvsWED12GK6NkR_Tp"
             type="video/mp4"

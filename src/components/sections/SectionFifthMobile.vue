@@ -197,7 +197,7 @@
               </video> -->
               <video class="video video_video-q3q4"  
                 autoplay loop preload  muted playsinline
-                poster="@/assets/video/posters/q3.png"
+                poster="@/assets/video/posters/2023end.png"
               >
                 <source
                   src="https://drive.google.com/uc?export=download&id=1JSgo9edqanAqW999J3QQVuL8IlRuEaNQ"

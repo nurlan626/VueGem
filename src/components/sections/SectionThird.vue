@@ -1,7 +1,9 @@
 <template>
   <section class="SectionThird">
     <div class="left-video">
-      <video class="video" autoplay loop preload  muted playsinline>
+      <video class="video" autoplay loop preload  muted playsinline
+        poster="@/assets/video/posters/03.png"
+      >
         <source 
           src="https://drive.google.com/uc?export=download&id=161Fmoym3YO65eXHUDf7tlC0_8vRQvoI7"
           type="video/mp4" 
