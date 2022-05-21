@@ -14,7 +14,7 @@
     </div>
     <div class="right">
       
-      <div class="privacy"> <router-link to="/" class="privacy-link"> Privacy policy </router-link> </div>
+      <div class="privacy"> <router-link to="/privacy" class="privacy-link"> Privacy policy </router-link> </div>
       <div>
         <div class="join">Join our community</div>
         <div class="icons">
