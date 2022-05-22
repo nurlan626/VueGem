@@ -32,7 +32,7 @@
         </div>
       </div>
       <div class="right-video">
-        <video class="video" autoplay loop preload  muted playsinline
+        <video class="video" autoplay muted loop preload   playsinline
            poster="@/assets/video/posters/02.png"
   
         >

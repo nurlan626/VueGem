@@ -18,7 +18,7 @@
                 <source src="@/assets/video/kawai.mp4" type="video/mp4" />
               </video> -->
                 <video class="video video__video-june7th" 
-                  autoplay loop preload  muted playsinline
+                  autoplay  muted loop preload   playsinline
                   poster="@/assets/video/posters/june7.png"
                 >
                   <source src="https://drive.google.com/uc?export=download&id=1QXgmii5yVWrKgf-TMavrCk9Y7OtghUMb" type="video/mp4" />
@@ -46,7 +46,7 @@
           <div class="event">
             <div class="event__video-box event__video-box-latejune">
               <video class="video coming-up__video-3"  
-                autoplay loop preload  muted playsinline
+                autoplay muted loop preload   playsinline
                 poster="@/assets/video/posters/midjune.png"
                 >
                 <source
@@ -85,7 +85,7 @@
                 />
               </video> -->
                <video class="video coming-up-video-2023"  
-                autoplay loop preload  muted playsinline
+                autoplay  muted loop preload   playsinline
                 poster="@/assets/video/posters/lateJune.png"
                >
                 <source
@@ -153,7 +153,7 @@
                 />
               </video> -->
               <video class="video coming-up__video-midjune"  
-                autoplay loop preload  muted playsinline
+                autoplay muted loop preload   playsinline
                 poster="@/assets/video/posters/q3.png"
               >
                 <source
@@ -196,7 +196,7 @@
                 <source src="@/assets/video/dbsb.mp4" type="video/mp4" />
               </video> -->
               <video class="video video_video-q3q4"  
-                autoplay loop preload  muted playsinline
+                autoplay muted loop preload   playsinline
                 poster="@/assets/video/posters/2023end.png"
               >
                 <source

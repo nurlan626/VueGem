@@ -1,7 +1,7 @@
 <template>
   <section class="SectionThird">
     <div class="left-video">
-      <video class="video" autoplay loop preload  muted playsinline
+      <video class="video" autoplay muted loop preload playsinline
         poster="@/assets/video/posters/03.png"
       >
         <source 

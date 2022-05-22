@@ -63,11 +63,12 @@
         <!-- <video class="video" autoplay loop preload muted playsinline>
           <source src="@/assets/video/kawai.mp4" type="video/mp4" />
         </video> -->
-        <video class="video" autoplay loop  muted playsinline
+        <video class="video"  loop  autoplay="true" muted playsinline id="video"
           poster="@/assets/video/posters/01.png"
 
         >
           <source src="https://drive.google.com/uc?export=download&id=1ChJjVsgyUlT8GZeVVgbb9TIKIr6CereT" type="video/mp4" />
+          <source src="@/assets/video/kawai.mp4" type="video/mp4" />
         </video>
       </div>
     </div>
