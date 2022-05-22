@@ -8,6 +8,7 @@
           src="https://drive.google.com/uc?export=download&id=161Fmoym3YO65eXHUDf7tlC0_8vRQvoI7"
           type="video/webm" 
         />
+        <source src="@/assets/video/mp4/03.mp4" type="video/mp4" />
       </video>
        <!-- <video class="video" autoplay loop preload  muted playsinline>
           <source src="https://drive.google.com/uc?export=download&id=" type="video/mp4" />

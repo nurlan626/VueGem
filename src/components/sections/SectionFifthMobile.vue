@@ -22,6 +22,7 @@
                   poster="@/assets/video/posters/june7.png"
                 >
                   <source src="https://drive.google.com/uc?export=download&id=1QXgmii5yVWrKgf-TMavrCk9Y7OtghUMb" type="video/mp4" />
+                  <source src="@/assets/video/mp4/june7.mp4" type="video/mp4" />
                 </video>
             </div>
             <div class="event__text event__text-june7th">
@@ -53,6 +54,7 @@
                   src="https://drive.google.com/uc?export=download&id=1DTqkTzdnI3K265iOBtJz2CIAdbMLinsg"
                   type="video/mp4"
                 />
+                <source src="@/assets/video/mp4/midJune.mp4" type="video/mp4" />
               </video>
             </div>
             <div class="event__text event__text-latejune">
@@ -92,6 +94,7 @@
                   src="https://drive.google.com/uc?export=download&id=1DyO8sMrdNGdLaEMhG_qB4viCBCg-1-0d"
                   type="video/mp4"
                 />
+                <source src="@/assets/video/mp4/lateJune.mp4" type="video/mp4" />
               </video>
             </div>
             <div class="event__text event__text-beyond">
@@ -160,6 +163,7 @@
                   src="https://drive.google.com/uc?export=download&id=1DTqkTzdnI3K265iOBtJz2CIAdbMLinsg"
                   type="video/mp4"
                 />
+                <source src="@/assets/video/mp4/q3.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
@@ -203,6 +207,7 @@
                   src="https://drive.google.com/uc?export=download&id=1JSgo9edqanAqW999J3QQVuL8IlRuEaNQ"
                   type="video/mp4"
                 />
+                <source src="@/assets/video/mp4/2023.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
