@@ -12,7 +12,7 @@
         </div>
       </router-link>
       <div class="header__links">
-        <div class="header__links-text">Join Community 13:41</div>
+        <div class="header__links-text">Join Community 13:52</div>
         <div class="header__links-icons">
           <a class="header__logo-a" href="#">
             <img
