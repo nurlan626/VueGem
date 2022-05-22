@@ -68,7 +68,7 @@
 
         >
           <source src="https://drive.google.com/uc?export=download&id=1ChJjVsgyUlT8GZeVVgbb9TIKIr6CereT" type="video/mp4" />
-          <source src="@/assets/video/kawai.mp4" type="video/mp4" />
+          <source src="@/assets/video/webm/01.webm" type="video/webm" />
         </video>
       </div>
     </div>
