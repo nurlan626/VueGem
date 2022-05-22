@@ -141,16 +141,15 @@ export default {
   width: 100%;
   max-width: 98.2rem;
   margin-right: 3.6rem;
-
-
   @media (max-width: 1024px) {
       padding: 0rem 5rem 0 5rem;
       flex-wrap: wrap;
-
   }
-
-  
-
+   @media (max-width: 480px) {
+     margin-right: 0rem;
+     padding: 0rem 2.5rem 0 2.5rem;
+   }
+      
 }
 .item{
   font-family: "Aventa";
