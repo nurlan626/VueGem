@@ -67,8 +67,9 @@
           poster="@/assets/video/posters/01.png"
 
         >
-          <source src="https://drive.google.com/uc?export=download&id=1ChJjVsgyUlT8GZeVVgbb9TIKIr6CereT" type="video/webm" />
-          <source src="@/assets/video/mp4/01.mp4" type="video/mp4" />
+          <source src="https://drive.google.com/uc?export=download&id=1ChJjVsgyUlT8GZeVVgbb9TIKIr6CereT" type="video/webm"/>
+          <source src="https://drive.google.com/uc?export=download&id=1hrQdXtmsxPIX5ELHzHX9YOnGC4q2GAmN" type="video/mp4"/>
+
         </video>
       </div>
     </div>
