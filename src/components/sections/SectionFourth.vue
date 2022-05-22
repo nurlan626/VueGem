@@ -96,7 +96,7 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 30.1rem;
+  margin-top: 32rem;
   margin-right: 1rem;
   @media (max-width: 600px) {
     margin-top: 20rem;
@@ -167,7 +167,7 @@ export default {
   }
 }
 .button{
-  margin-top: 1.05rem;
+  margin-top: 1.4rem;
   font-family: 'Aventa';
   font-size: 2rem;
   height: 4.3rem;

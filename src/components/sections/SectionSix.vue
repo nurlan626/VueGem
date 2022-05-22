@@ -83,7 +83,7 @@ export default {
 
 <style scoped lang="scss">
 .SectionSix{
-    margin-top: 11.59rem;
+    margin-top: 4.4rem;
     color: white;
     display: flex;
     flex-direction: column;
@@ -118,7 +118,7 @@ export default {
 }
 .text{
   margin-right: 2rem;;
-  margin-top: 7.2rem;
+  margin-top: 8.5rem;
   width: 100%;
   max-width: 100rem;
   font-family: "Aventa";

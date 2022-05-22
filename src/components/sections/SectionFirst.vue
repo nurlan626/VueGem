@@ -168,7 +168,7 @@ export default {
   justify-content: center;
   width: 100%;
   text-align: left;
-  margin-top: -4.5rem;
+  margin-top: -4.15rem;
 
   @media (max-width: 1024px) {
     flex-direction: column;
@@ -283,7 +283,7 @@ export default {
 .membershtip-nft {
   font-family: "Aventa";
   width: 100%;
-  max-width: 58.3rem;
+  max-width: 58.5rem;
   margin: 26.5rem auto 0 auto;
   position: relative;
   right: 2.6rem;
@@ -318,7 +318,8 @@ export default {
 }
 .membership-nft__text {
   font-size: 2rem;
-  margin-top: 2rem;
+  margin-top: 1.9rem;
+  margin-left: 1rem;
   @media (max-width: 600px) {
     font-size: 1.5;
   }

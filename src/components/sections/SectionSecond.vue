@@ -58,7 +58,7 @@ export default {
 
 <style scoped lang="scss">
 .SectionSecond{
-  margin-top: 35rem;
+  margin-top: 32.5rem;
   display: flex;
   gap: 8rem;
   color: white;
@@ -73,23 +73,21 @@ export default {
   }
    @media (max-width:600px) {
     margin-top: 7rem;
-    padding: 0 0rem 0 5rem;
+    padding: 0 0rem 0 0rem;
   }
    @media (max-width:480px) {
-    margin-top: 0rem;
+    margin: 0rem;
+    padding: 0rem;
 
   }
   
 }
 .left{
-  margin-left: -4.2rem;
-    @media (max-width:1440px) {
-      position: relative;
-      left: 139px;
-    }
-    @media (max-width:1400px) {
+  position: relative;
+  left: 9rem;
+  @media (max-width:1399px) {
       position: static;
-    }
+  }
 
 }
 .left__title-box{
@@ -149,7 +147,7 @@ export default {
 }
 
 .left__title-membership{
-  font-size: 2.4rem;
+  font-size: 2.3rem;
   margin-left: 0.5rem;
   @media (max-width:600px) {
     font-size: 2rem;
@@ -174,11 +172,9 @@ export default {
   max-width: 45rem;
   max-height: 45rem;
   transform: rotate(-25deg);
-   @media (max-width:1920px) {
     position: relative;
     top: -30rem;
     left: 4rem;
-  }
   @media (max-width:1435px) {
     max-width: 35rem;
     max-height: 35rem;
@@ -211,7 +207,7 @@ export default {
 
 }
 .left__text {
-  margin-left: 1.5rem;
+  margin-left: 1.7rem;
 
 }
 .left__text1{

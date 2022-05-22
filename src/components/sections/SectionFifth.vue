@@ -110,7 +110,8 @@
               <!-- <p class="event__title">
                 Join us on a road to Metaverse
               </p> -->
-              <p class=" event__description  event__description--beyond event__description--beyondSubtitle">
+              <div class="event__description__2023box">
+                <p class=" event__description  event__description--beyond event__description--beyondSubtitle">
                 Partners Growth
               </p>
               <p class=" event__description  event__description--beyond">
@@ -127,6 +128,8 @@
               <p class=" event__description  event__description--beyond">
                   GemBox platform will get full market capabilities and governance
               </p>
+              </div>
+              
             </div>
           </div>
         </div>
@@ -331,11 +334,9 @@ video {
 
 .video__video-june7th {
    transform: rotate(-25deg);
-   @media (max-width:1920px) {
     position: relative;
     top: -25rem;
     left: 3rem;
-  }
    @media (max-width:1024px) {
     position: static;
   }
@@ -348,33 +349,28 @@ video {
     height: 14rem;
     transform: rotate(-25deg);
 
-   @media (max-width:1920px) {
     position: relative;
     top: -5rem;
     left: 0rem;
-  }
+ 
    @media (max-width:1024px) {
     position: static;
   }
 }
 .coming-up-video-2023{
     transform: rotate(-25deg);
-   @media (max-width:1920px) {
     position: relative;
-    top: -10rem;
+    top: -13rem;
     left: -5rem;
-  }
    @media (max-width:1024px) {
     position: static;
   }
 }
 .video_video-q3q4{
    transform: rotate(-25deg);
-   @media (max-width:1920px) {
     position: relative;
     top: -20rem;
     left: 0rem;
-  }
    @media (max-width:1024px) {
     position: static;
   }
@@ -395,11 +391,9 @@ video {
 }
 .coming-up__video-midjune{
     transform: rotate(-25deg);
-   @media (max-width:1920px) {
     position: relative;
     top: -30rem;
     left: 0rem;
-  }
    @media (max-width:1024px) {
     position: static;
   }
@@ -529,6 +523,10 @@ video {
 }
 .event__description--beyondSubtitle{
   font-size: 1.941rem;
+}
+.event__description__2023box{
+  margin-top: -1.5rem;
+  margin-left: 0.5rem;
 }
 
 </style>

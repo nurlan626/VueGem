@@ -16,7 +16,7 @@ export default {
 
 <style scoped lang="scss">
 .SectionSeven{
-    margin-top: 25.4rem;
+    margin-top: 22.4rem;
     color: white;
     display: flex;
     flex-direction: column;

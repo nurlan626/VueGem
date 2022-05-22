@@ -64,7 +64,7 @@ export default {
 
 <style scoped lang="scss">
 .SectionThird {
-  margin-top: 43rem;
+  margin-top: 41rem;
   display: flex;
   justify-content: center;
   color: white;
@@ -80,10 +80,8 @@ export default {
 }
 .right {
   padding: 2rem;
-  @media (max-width: 1920px) { 
     position: relative;
     left: -7rem;
-  }
   @media (max-width: 1400px) {
     position: static;
   }
@@ -236,11 +234,9 @@ export default {
   width: 100%;
   max-width: 50rem;
   transform: rotate(25deg);
-  @media (max-width: 2500px) {
     position: relative;
     top: -35rem;
-    right: 20rem;
-  }
+    right: 12rem;
    @media (max-width: 1435px) {
     max-width: 40rem;
   }
@@ -257,6 +253,7 @@ export default {
     position: static;
     order: 1;
     max-width: 270px;
+    padding-top: 6rem;
   }
 }
 .video {

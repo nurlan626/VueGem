@@ -78,6 +78,7 @@ export default {
   font-size: 1.6rem;
   margin-top: 1rem;
   margin-right: 5.7rem;
+  margin-bottom: 2rem;
    @media (max-width: 1024px) {
     margin-right: 4rem;
   }
