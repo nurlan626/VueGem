@@ -35,6 +35,7 @@ html{
   font-size: 10px;
 }
 .app{
+  background-color: #1d1b25;
   background-image: url("@/assets/GemBox-background.png");
   background-repeat: no-repeat;
   background-size: cover;

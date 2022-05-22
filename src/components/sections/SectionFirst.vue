@@ -63,7 +63,7 @@
         <!-- <video class="video" autoplay loop preload muted playsinline>
           <source src="@/assets/video/kawai.mp4" type="video/mp4" />
         </video> -->
-        <video class="video" autoplay loop preload muted playsinline
+        <video class="video" autoplay loop  muted playsinline
           poster="@/assets/video/posters/01.png"
 
         >
