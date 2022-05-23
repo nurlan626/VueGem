@@ -27,7 +27,7 @@
             </div>
             <div class="event__text event__text-june7th">
               <div class="event_date-box">
-                <h1 class="event_date">JUNE 7th 2022</h1>
+                <h1 class="event_date">JUNE 14th 2022</h1>
               </div>
               <img
                 class="coming-up__vector-img"

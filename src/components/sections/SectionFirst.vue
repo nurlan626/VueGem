@@ -101,13 +101,14 @@ export default {
   mounted() {
     this.play();
   },
-  methods: {
-    data() {
+  
+  data() {
       return {
         mute: true,
       };
     },
 
+  methods: {
     play() {
       let audio = document.getElementById("audio");
       audio.volume = 0.2;
