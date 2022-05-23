@@ -88,7 +88,7 @@ export default {
 
 .partners {
   margin-top: 10rem;
-  width: 100%;
+  width: 80%;
   max-width: 100rem;
   @media (max-width: 1024px) {
     padding: 5rem;
@@ -103,12 +103,12 @@ export default {
 .partners-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  margin-left: 20rem;
+  margin-left: 9rem;
 
   @media (max-width: 960px) {
     grid-template-columns: auto auto;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 720px) {
     grid-template-columns: auto;
   }
 }
