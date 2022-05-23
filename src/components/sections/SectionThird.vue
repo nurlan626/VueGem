@@ -41,7 +41,7 @@
             - GemBox exists for fresh and hot music events, so we combined a bunch of event-related utilities into one to get you VIP access to the coolest physical and virtual events on the planet. 
           </p>
           <p class="right__text2-text">
-            - launch drop includes a VIP ticket and accommodation for 7 days of Fresh Island Festival on the beautiful Mediterranean beach of Pag island in Croatia.
+            - launch drop includes a VIP ticket and accommodation for 7 days of <a class="a" href="https://fresh-island.org " target="_blank">Fresh Island</a> Festival on the beautiful Mediterranean beach of Pag island in Croatia.
           </p>
           <p class="right__text2-title right__text2-title--margin">POWER utilities:</p>
           <p class="right__text2-text right__text2-text--margin">
@@ -276,6 +276,10 @@ export default {
 }
 .span{
   color:#48f08c;
+}
+.a{
+  text-decoration:  none;
+  color: white
 }
 
 </style>

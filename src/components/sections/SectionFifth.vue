@@ -76,7 +76,7 @@
               </p>
               <p class="event__description">
                 Premium NFT holders get 7 days of VIP treatment and
-                accommodation at the Fresh Island Festival on Pag island in
+                accommodation at the <a class="a" href="https://fresh-island.org " target="_blank">Fresh Island</a> Festival on Pag island in
                 Croatia.
               </p>
             </div>
@@ -152,7 +152,7 @@
                 src="@/assets/Vector.png"
                 alt="vector"
               />
-              <p class="event__title event__title--midjune"><u>Noonoouri</u> NFT drop</p>
+              <p class="event__title event__title--midjune"><a class="a" href="https://www.instagram.com/noonoouri/?hl=en" target="_blank"><u>Noonoouri</u></a> NFT drop</p>
               <p class="event__description event__description--midjune">
                 Merely the first in our series of fashion NFT projects,
                 noonoouri is the first virtual supermodel whose Insta feed was
@@ -532,5 +532,8 @@ video {
   margin-top: -1.5rem;
   margin-left: 0.5rem;
 }
-
+.a{
+  text-decoration: none;
+  color:#48f08c;
+}
 </style>

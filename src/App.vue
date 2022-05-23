@@ -40,5 +40,8 @@ html{
   background-repeat: no-repeat;
   background-size: cover;
 }
+a{
+  text-decoration: none;
+}
 
 </style>

@@ -109,7 +109,11 @@
               </p>
               <p class=" event__description ">
                 Premium NFT holders get 7 days of VIP treatment and
-                accommodation at the Fresh Island Festival on Pag island in
+                accommodation at the 
+                <a class="a" href="https://fresh-island.org " target="_blank">
+                Fresh Island
+                </a>
+                 Festival on Pag island in
                 Croatia.
               </p>
            
@@ -552,5 +556,8 @@ video {
 .event__title--beyond{
   margin-top: 2rem;
 }
-
+.a {
+  text-decoration: none;
+  color: white;
+}
 </style>
