@@ -1,30 +1,26 @@
 <template>
   <section class="SectionFirst">
-    <audio  preload autoplay loop id="audio"> 
-      <source 
-      src="@/assets/music/music.wav" 
-      type="audio/wav" 
-      />   
+    <audio loop id="audio">
+      <source src="@/assets/music/music.wav" type="audio/wav" />
     </audio>
     <div class="sound">
-      <img v-if="mute"
-        class="sound-img" 
-        src="@/assets/sound1.svg" 
-        alt="artifact-logo"  
+      <img
+        v-if="mute"
+        class="sound-img"
+        src="@/assets/sound1.svg"
+        alt="artifact-logo"
         @click="play"
-      /> 
-      <img v-if="!mute"
-          class="sound-img" 
-          src="@/assets/sound2.svg" 
-          alt="artifact-logo" 
-          @click="stop"
+      />
+      <img
+        v-if="!mute"
+        class="sound-img"
+        src="@/assets/sound2.svg"
+        alt="artifact-logo"
+        @click="stop"
       />
     </div>
-    <div class="title2"> 
-      <img 
-        class="title2-img" 
-        src="@/assets/frame2.svg" 
-        alt="title2-img" />
+    <div class="title2">
+      <img class="title2-img" src="@/assets/frame2.svg" alt="title2-img" />
     </div>
     <div class="content">
       <div class="content__text-container">
@@ -37,7 +33,7 @@
           <span class="content__text-span">GemBox</span> is a bond between the
           brands and a community. You'll have to follow us for the collaboration
           announcements, since it is all NDA just yet - but we can promise it
-          will turn your hands diamond. Take a part in a freshly minted 
+          will turn your hands diamond. Take a part in a freshly minted
           community.
         </div>
         <div class="content__links">
@@ -63,10 +59,19 @@
         <!-- <video class="video" autoplay loop preload muted playsinline>
           <source src="@/assets/video/kawai.mp4" type="video/mp4" />
         </video> -->
-        <video class="video"  loop  autoplay="true" muted playsinline id="video"
+        <video
+          class="video"
+          loop
+          autoplay="true"
+          muted
+          playsinline
+          id="video"
           poster="@/assets/video/posters/01.png"
         >
-          <source src="https://drive.google.com/uc?export=download&id=1ChJjVsgyUlT8GZeVVgbb9TIKIr6CereT" type="video/webm"/>
+          <source
+            src="https://drive.google.com/uc?export=download&id=1ChJjVsgyUlT8GZeVVgbb9TIKIr6CereT"
+            type="video/webm"
+          />
           <source src="@/assets/video/mp4/01.mp4" type="video/mp4" />
         </video>
       </div>
@@ -96,11 +101,11 @@ export default {
   mounted() {
     this.play();
   },
-  methods: { 
+  methods: {
     data() {
       return {
-        mute: false  
-      }
+        mute: true,
+      };
     },
 
     play() {
@@ -113,11 +118,10 @@ export default {
     stop() {
       let audio = document.getElementById("audio");
       audio.volume = 0.2;
-      audio.pause();  
+      audio.pause();
       this.mute = !this.mute;
-    }
-  }
-
+    },
+  },
 };
 </script>
 
@@ -146,8 +150,8 @@ export default {
   @media (max-width: 600px) {
     width: 2rem;
   }
-  &:hover{
-      border: 2px solid grey;
+  &:hover {
+    border: 2px solid grey;
   }
 }
 .title2 {
@@ -259,8 +263,6 @@ export default {
   gap: 1.3rem;
   width: 100%;
   max-width: 15rem;
- 
-
 }
 .content__links-social-title {
   font-family: "Aventa";
