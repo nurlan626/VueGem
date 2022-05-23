@@ -5,7 +5,7 @@
           <img class="title-img" src="@/assets/Vector.png" alt="vector">
       </div>
       <div class="text">
-        GemBox si a product of Artifact Labs, an NFT company led by veteran technologists, creators and community builders who want to close gaps between the value created and the amount digital creators actually make. Artifact Labs is co-founded by <u class="u">Jotta 2 Group</u> operating in over 22 countries worldwide.
+        GemBox si a product of Artifact Labs, an NFT company led by veteran technologists, creators and community builders who want to close gaps between the value created and the amount digital creators actually make. Artifact Labs is co-founded by <a class="u">Jota 2 Group</a> operating in over 22 countries worldwide.
       </div>
       <div class="founders">
         <div class="item">
@@ -65,7 +65,7 @@
             <img class="founder-vector" src="@/assets/Vector.png" alt="vector">
           </div>
           <div class="founder-position">Advisor</div>
-          <div class="founder-description">Jerome is the greatest living art curator who in his rich career, co-founded the Palais de Tokyo in Paris and directed Ullens Center for Contemporary Art in Bejing among the others. Jerome joined Gembox team to build exciting new world for all of us. 
+          <div class="founder-description">Jerome is the greatest living art curator who in his rich career, co-founded the Palais de Tokyo in Paris and directed Ullens Center for Contemporary Art in Bejing among the others. Jerome joined Gembox team to build exciting new world for all of us.
           </div>
         </div>
       </div>
@@ -92,7 +92,7 @@ export default {
       margin-top: 5rem;
     }
     @media (max-width: 480px) {
-      margin-top: 0rem;
+      margin-top: 0;
     }
 }
 
@@ -131,7 +131,7 @@ export default {
     }
      @media (max-width: 480px) {
       font-size: 1.3rem;
-      margin-top: 0rem;
+      margin-top: 0;
 
     }
 }
@@ -142,16 +142,16 @@ export default {
   max-width: 98.2rem;
   margin-right: 3.6rem;
   @media (max-width: 1024px) {
-      padding: 0rem 5rem 0 5rem;
+      padding: 0 5rem;
       flex-wrap: wrap;
   }
    @media (max-width: 480px) {
-     margin-right: 0rem;
-     padding: 0rem 2.5rem 0 2.5rem;
+     margin-right: 0;
+     padding: 0 2.5rem;
    }
-      
+
 }
-.item{
+.item {
   font-family: "Aventa";
   width: 13.2rem;
   text-align: left;
@@ -159,55 +159,64 @@ export default {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-
   margin-top: 6.6rem;
-
-
 }
-.founder-title{
+
+.founder-title {
   width: 15.2rem;
   font-weight:  400;
   font-size: 1.567rem;
   margin-top: 1.55rem;
   margin-bottom: -0.35rem;
-  
 }
-.founder-img{
+
+.founder-img
+{
   width: 13.2rem;;
 }
-.founder-vector{
-  width: 4rem;  
+.founder-vector {
+  width: 4rem;
 }
-.founder-position{
+.founder-position {
   width: 15.2rem;
   margin-top: 0.95rem;
   font-size: 1.395rem;
 }
-.founder-description{
+
+.founder-description {
   margin-top: 1.5rem;
   font-size: 1.05rem;
   line-height: 1.2rem;
 }
-.founder-description--width{
+
+.founder-description--width {
   width: 13rem;
 }
-.bottom-text{
+
+.bottom-text {
   font-family: "Aventa";
   margin-top: 5.3rem;
   font-size: 1.567rem;
   margin-right: 3.2rem;
+
   @media (max-width: 1024px) {
     margin: 5.3rem auto 0 auto;
   }
+
   @media (max-width: 600px) {
     font-size: 1.2rem;
   }
+
   @media (max-width: 480px) {
     width: 20rem;
   }
 }
-.u{
+
+.u {
   line-height: 2rem;
   font-weight: 300;
+  color: #ffffff;
+  text-decoration: underline;
 }
+
 </style>
