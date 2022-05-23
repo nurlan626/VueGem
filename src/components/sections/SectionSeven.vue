@@ -130,34 +130,36 @@ export default {
 }
 
 .partners {
-  margin-top: 10rem;
   width: 100%;
   max-width: 101.3rem;
+  margin-top: 11rem;
   @media (max-width: 1024px) {
     padding: 5rem;
+    padding-top:0;
     margin-top: 2rem;
   }
   @media (max-width: 600px) {
-    padding: 2rem;
-    margin: 0;
+    margin-top: 0rem;
+
   }
 }
 
 .partners-container {
   display: grid;
   grid-template-columns: auto auto auto;
+
   justify-content: space-between;
   align-content: space-between;
-  grid-row-gap: 5rem;
+  grid-row-gap: 6rem;
   grid-column-gap: 4rem;
 
   @media (max-width: 960px) {
     grid-template-columns: auto auto;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 720px) {
     grid-template-columns: auto;
     justify-content: center;
-      grid-row-gap: 2rem;
+    grid-row-gap: 2rem;
 
   }
 }
