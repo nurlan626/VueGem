@@ -7,18 +7,18 @@
       />   
     </audio>
     <div class="sound">
-      <img 
+      <img v-if="mute"
         class="sound-img" 
         src="@/assets/sound1.svg" 
         alt="artifact-logo"  
         @click="play"
       />
-      <!-- <img 
+      <img v-else
           class="sound-img" 
           src="@/assets/sound2.svg" 
           alt="artifact-logo" 
           @click="stop"
-      /> -->
+      />
     </div>
     <div class="title2">
       <img 
@@ -100,7 +100,7 @@ export default {
   methods: { 
     data() {
       return {
-        mute: false 
+        mute: true 
       }
     },
     play() {
@@ -112,8 +112,13 @@ export default {
         audio.pause(); 
       } 
       this.mute = !this.mute;
-
     },
+
+    stop() {
+      let audio = document.getElementById("audio");
+      audio.pause();  
+      this.mute = !this.mute;
+    }
   }
 };
 </script>
