@@ -57,6 +57,9 @@ export default {
 }
 .artifact-logo {
   margin-top: 1.8rem;
+  width: 100%;
+  max-width: 28.3rem;
+  
 }
 
 .copyright-box {
