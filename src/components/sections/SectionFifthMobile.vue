@@ -66,7 +66,7 @@
                 alt="vector"
               />
               <p class="event__title">
-                Noonoouri NFT drop
+                <u>Noonoouri</u> NFT drop
               </p>
               <p class="event__description">
                 Merely the first in our series of fashion NFT projects,
@@ -104,10 +104,10 @@
                 src="@/assets/Vector.png"
                 alt="vector"
               />
-              <!-- <p class="event__title">
-                Join us on a road to Metaverse
-              </p> -->
-              <p class=" event__description  event__description--beyond event__description--beyondSubtitle">
+              <p class="event__title">
+                First EVENT utility delivered
+              </p>
+              <p class=" event__description ">
                 Premium NFT holders get 7 days of VIP treatment and
                 accommodation at the Fresh Island Festival on Pag island in
                 Croatia.
@@ -142,8 +142,10 @@
                 it is all NDA just yet but we can promise it will turn your
                 hands diamond.
               </p>
-              <p class="event__description event__description--midjune">
+               <p class="event__title event__description--midjune">
                 Platform Development
+              </p>
+              <p class="event__description event__description--midjune">
                 Gembox Marketplace 
               </p>
 
@@ -430,6 +432,8 @@ video {
   margin-bottom: 2rem;
   font-family: "Aventa";
   font-size: 1.941rem;
+  font-weight: bold;
+  color: #48f08c;
     @media (max-width: 1024px) {
     margin: 0 auto 2rem auto;
   }
@@ -463,6 +467,7 @@ video {
 .event__description--midjune{
   position: relative;
   top: 0.5rem;
+  margin-bottom: 2rem;
    @media (max-width: 1024px) {
     position: static;
   }
@@ -537,6 +542,8 @@ video {
 }
 .event__description--beyondSubtitle{
   font-size: 1.941rem;
+  font-weight: bold;
+  color:#48f08c;
     @media (max-width: 1024px) {
     font-size: 1.3rem;
   }

@@ -152,7 +152,7 @@
                 src="@/assets/Vector.png"
                 alt="vector"
               />
-              <p class="event__title event__title--midjune">Noonoouri NFT drop</p>
+              <p class="event__title event__title--midjune"><u>Noonoouri</u> NFT drop</p>
               <p class="event__description event__description--midjune">
                 Merely the first in our series of fashion NFT projects,
                 noonoouri is the first virtual supermodel whose Insta feed was
@@ -196,7 +196,7 @@
                 it is all NDA just yet but we can promise it will turn your
                 hands diamond.
               </p>
-              <p class="event__description event__description--marginTop">
+              <p class="event__title event__description--marginTop">
                 Platform Development
               </p>
               <p class="event__description event__description--marginTop">
@@ -423,6 +423,8 @@ video {
   margin-bottom: 2rem;
   font-family: "Aventa";
   font-size: 1.941rem;
+  font-weight: bold;
+  color: #48f08c;
     @media (max-width: 1024px) {
     margin: 0 auto 2rem auto;
   }
@@ -523,6 +525,8 @@ video {
 }
 .event__description--beyondSubtitle{
   font-size: 1.941rem;
+  font-weight: bold;
+  color:#48f08c;
 }
 .event__description__2023box{
   margin-top: -1.5rem;

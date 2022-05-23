@@ -1,6 +1,6 @@
 <template>
   <section class="SectionFirst">
-    <audio  v-if="!mute" preload autoplay loop id="audio"> 
+    <audio  preload autoplay loop id="audio"> 
       <source 
       src="@/assets/music/music.wav" 
       type="audio/wav" 
@@ -12,15 +12,15 @@
         src="@/assets/sound1.svg" 
         alt="artifact-logo"  
         @click="play"
-      />
-      <img v-else
+      /> 
+      <img v-if="!mute"
           class="sound-img" 
           src="@/assets/sound2.svg" 
           alt="artifact-logo" 
           @click="stop"
       />
     </div>
-    <div class="title2">
+    <div class="title2"> 
       <img 
         class="title2-img" 
         src="@/assets/frame2.svg" 
@@ -37,11 +37,11 @@
           <span class="content__text-span">GemBox</span> is a bond between the
           brands and a community. You'll have to follow us for the collaboration
           announcements, since it is all NDA just yet - but we can promise it
-          will turn your hands diamond. Take a part in a freshly minted
+          will turn your hands diamond. Take a part in a freshly minted 
           community.
         </div>
         <div class="content__links">
-          <button class="content__links-button">join the discord functionality</button>
+          <button class="content__links-button">Join The Movement</button>
           <!-- <div class="content__links-social">
             <div class="content__links-social-title">Follow Us</div>
             <div class="content__links-social-icon-box">
@@ -65,7 +65,6 @@
         </video> -->
         <video class="video"  loop  autoplay="true" muted playsinline id="video"
           poster="@/assets/video/posters/01.png"
-
         >
           <source src="https://drive.google.com/uc?export=download&id=1ChJjVsgyUlT8GZeVVgbb9TIKIr6CereT" type="video/webm"/>
           <source src="@/assets/video/mp4/01.mp4" type="video/mp4" />
@@ -100,26 +99,25 @@ export default {
   methods: { 
     data() {
       return {
-        mute: true 
+        mute: false  
       }
     },
+
     play() {
       let audio = document.getElementById("audio");
       audio.volume = 0.2;
-      if(this.mute){
-        audio.play();
-      } else {
-        audio.pause(); 
-      } 
+      audio.play();
       this.mute = !this.mute;
     },
 
     stop() {
       let audio = document.getElementById("audio");
+      audio.volume = 0.2;
       audio.pause();  
       this.mute = !this.mute;
     }
   }
+
 };
 </script>
 
