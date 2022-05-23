@@ -4,7 +4,10 @@
         <div class="title">Get invited to the launch</div>
         <div class="subtitle">So you don't miss out on all the best stuff.</div>
       </div>
-      <button class="button">Put your Email here</button>
+      <div>
+        <button class="button">Put your Email here</button>
+        <input  class="input" type="text" placeholder="Email">  
+      </div>     
   </section>
 </template>
 
@@ -40,6 +43,7 @@ export default {
   }
    @media (max-width: 480px) {
      font-size: 3rem;
+     margin-left: 0rem;
   }
 }
 .subtitle{
@@ -54,6 +58,7 @@ export default {
   }
   @media (max-width: 480px) {
     font-size: 1.5rem;
+    margin-left: 0rem;
   }
 
 }
@@ -77,6 +82,23 @@ export default {
 
   @media (max-width: 480px) {
    font-size: 1.3rem;
+   margin-left: 0rem;
   }
+}
+.input{
+  margin-top: 3rem;
+  height: 4.5rem;
+  width: 50rem;
+  background-color: transparent;
+  border: 1px solid grey;
+  font-size: 2rem;
+  padding-left: 1.2rem;
+  width: 100%;
+  max-width: 58.6rem;
+  margin-left: 2.2rem;
+  @media (max-width: 480px) {
+    margin-left: 0rem;
+  }
+
 }
 </style>

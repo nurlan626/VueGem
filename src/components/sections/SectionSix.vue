@@ -39,7 +39,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="founder-img" src="@/assets/founder.png" alt="founder">
+          <img class="founder-img" src="@/assets/gavin.png" alt="founder">
           <div>
             <div class="founder-title">Gavin Hockley</div>
             <img class="founder-vector" src="@/assets/Vector.png" alt="vector">
@@ -49,7 +49,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="founder-img" src="@/assets/founder.png" alt="founder">
+          <img class="founder-img" src="@/assets/noan.png" alt="founder">
           <div>
             <div class="founder-title">Noan Cantabrana</div>
             <img class="founder-vector" src="@/assets/Vector.png" alt="vector">
@@ -59,7 +59,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="founder-img" src="@/assets/founder.png" alt="founder">
+          <img class="founder-img" src="@/assets/jerome.png" alt="founder">
           <div>
             <div class="founder-title">Jerome Sans</div>
             <img class="founder-vector" src="@/assets/Vector.png" alt="vector">
