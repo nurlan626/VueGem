@@ -87,7 +87,7 @@
         <span class="membership-nft__span">50 Premium</span> NFTs and
         <span class="membership-nft__span">5,000 Base</span> NFTs. Steady your
         FOMO! Yes, premium NFT’s come with an infinite utility option, but Base
-        NFT’s can be upgraded with DROPS, EVENTS or POWER utilities.
+        NFTs can be upgraded with DROPS, EVENTS or POWER utilities.
       </div>
     </div>
   </section>
@@ -101,7 +101,7 @@ export default {
   mounted() {
     this.play();
   },
-  
+
   data() {
       return {
         mute: true,
