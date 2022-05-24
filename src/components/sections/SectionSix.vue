@@ -183,6 +183,8 @@ export default {
   @media (max-width: 480px) {
     margin-right: 0;
     padding: 0 2.5rem;
+    flex-wrap: wrap;
+    
   }
 }
 .item {
@@ -205,7 +207,10 @@ export default {
 }
 
 .founder-img {
-  width: 13.2rem;
+
+  max-width: 13.2rem;
+  height: 100%;
+  max-height: 14.6rem;
 }
 .founder-vector {
   width: 4rem;

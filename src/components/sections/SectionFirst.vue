@@ -104,24 +104,26 @@ export default {
 
   data() {
       return {
-        mute: true,
+        mute: false,
       };
     },
 
   methods: {
     play() {
+      this.mute = true;
       let audio = document.getElementById("audio");
-      audio.volume = 0.2;
+      audio.volume = 0.01;
       audio.play();
       this.mute = !this.mute;
     },
 
     stop() {
+      this.mute = false;
       let audio = document.getElementById("audio");
-      audio.volume = 0.2;
       audio.pause();
       this.mute = !this.mute;
     },
+
   },
 };
 </script>
