@@ -4,76 +4,61 @@
       <div class="title-box">
         <div class="title">BE DROP READY!</div>
         <div class="date">
-          {{ displayDays }} :
-          {{ displayHours }} :
-          {{ displayMinutes }} :
+          {{ displayDays }} : {{ displayHours }} : {{ displayMinutes }} :
           {{ displaySeconds }}
         </div>
         <div class="days">
-          <div>
-            Days
-          </div>
-          <div  class="days__hours">
-            Hours
-          </div>
-          <div>
-            Minutes
-          </div>
-          <div>
-            Seconds
-          </div>
+          <div>Days</div>
+          <div class="days__hours">Hours</div>
+          <div>Minutes</div>
+          <div>Seconds</div>
         </div>
-      </div>      
-      <input  class="input" type="text" placeholder="Email">
+      </div>
+      <input class="input" type="text" placeholder="Email" />
       <button class="button">Get your name on the list</button>
     </div>
-     
   </section>
 </template>
 
 <script>
 export default {
-  name: "section-fourth", 
+  name: "section-fourth",
   data() {
     return {
       displayDays: 0,
       displayHours: 0,
       displayMinutes: 0,
       displaySeconds: 0,
-    }
+    };
   },
   computed: {
     _seconds: () => 1000,
     _minutes() {
-      return this._seconds * 60 
+      return this._seconds * 60;
     },
     _hours() {
-      return this._minutes * 60
+      return this._minutes * 60;
     },
     _days() {
-      return this._hours * 24
-    }
+      return this._hours * 24;
+    },
   },
- mounted(){
-  
-      this.showRemaining();
-      console.log("qerq");
-
+  mounted() {
+    this.showRemaining();
   },
   methods: {
-    showRemaining(){
+    showRemaining() {
       const timer = setInterval(() => {
         const now = new Date();
         const end = new Date(2022, 5, 14, 22, 0, 0, 0);
-        console.log(end)
         const distance = end.getTime() - now.getTime();
 
-        if (distance < 0){
+        if (distance < 0) {
           clearInterval(timer);
-          return
+          return;
         }
 
-        const days = Math.floor(distance/this._days);
+        const days = Math.floor(distance / this._days);
         const hours = Math.floor((distance % this._days) / this._hours);
         const minutes = Math.floor((distance % this._hours) / this._minutes);
         const seconds = Math.floor((distance % this._minutes) / this._seconds);
@@ -82,16 +67,14 @@ export default {
         this.displayMinutes = minutes < 10 ? "0" + minutes : minutes;
         this.displayHours = hours < 10 ? "0" + hours : hours;
         this.displayDays = days < 10 ? "0" + days : days;
-        console.log("erewr"); 
-      }, 1000)
-    }
-  }
-
+      }, 1000);
+    },
+  },
 };
 </script>
 
 <style scoped lang="scss">
-.SectionFourth{
+.SectionFourth {
   background-color: rgba(0, 0, 0, 0);
   display: flex;
   flex-direction: column;
@@ -102,26 +85,26 @@ export default {
   @media (max-width: 600px) {
     margin-top: 20rem;
   }
-    @media (max-width: 480px) {
+  @media (max-width: 480px) {
     margin-top: 10rem;
   }
 }
-.container{
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
   color: white;
 }
 
-.title{
+.title {
   font-family: "Bebas Neue";
   font-size: 10.256rem;
-   @media (max-width: 600px) {
+  @media (max-width: 600px) {
     font-size: 6.5rem;
     text-align: center;
   }
 }
-.date{
+.date {
   margin-top: 1rem;
   font-family: "Bebas Neue";
   font-size: 10.6rem;
@@ -131,9 +114,8 @@ export default {
     font-size: 6rem;
     text-align: center;
   }
-
 }
-.days{
+.days {
   margin-top: 0.2rem;
   display: flex;
   font-family: "Aventa";
@@ -141,21 +123,19 @@ export default {
   width: 100%;
   justify-content: space-between;
   color: #48f08c;
-   @media (max-width: 600px) {
-     justify-content: space-around;
+  @media (max-width: 600px) {
+    justify-content: space-around;
     font-size: 1.6rem;
     text-align: center;
   }
-  
-
 }
-.days__hours{
+.days__hours {
   margin-left: 3.5rem;
   @media (max-width: 600px) {
     margin-left: 1.6rem;
   }
 }
-.input{
+.input {
   margin-top: 3rem;
   height: 4.5rem;
   width: 50rem;
@@ -167,9 +147,9 @@ export default {
     width: 30rem;
   }
 }
-.button{
+.button {
   margin-top: 1.4rem;
-  font-family: 'Aventa';
+  font-family: "Aventa";
   font-size: 2rem;
   height: 4.3rem;
   padding: 0rem 5.1rem 0 5.3rem;
@@ -179,15 +159,13 @@ export default {
   color: white;
   position: relative;
   top: 1rem;
-  
+
   width: 50rem;
 
   @media (max-width: 600px) {
     width: 35rem;
-      font-size: 1.5rem;
-      width: 30rem;
-
-
+    font-size: 1.5rem;
+    width: 30rem;
   }
 }
 </style>
