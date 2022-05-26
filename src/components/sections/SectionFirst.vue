@@ -74,7 +74,7 @@
           />
           <source src="@/assets/video/mp4/01.mp4" type="video/mp4" />
         </video> -->
-        <img src="@/assets/video/gif/01.gif" alt="ew"/>
+        <img src="@/assets/video/gif/01.gif" class ="video" alt="ew"/>
       </div>
     </div>
     <div class="membershtip-nft">
