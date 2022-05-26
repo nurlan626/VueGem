@@ -59,7 +59,7 @@
         <!-- <video class="video" autoplay loop preload muted playsinline>
           <source src="@/assets/video/kawai.mp4" type="video/mp4" />
         </video> -->
-        <video
+        <!-- <video
           class="video"
           loop
           autoplay="true"
@@ -73,7 +73,8 @@
             type="video/webm"
           />
           <source src="@/assets/video/mp4/01.mp4" type="video/mp4" />
-        </video>
+        </video> -->
+        <img src="@/assets/video/gif/01.gif" alt="ew"/>
       </div>
     </div>
     <div class="membershtip-nft">
